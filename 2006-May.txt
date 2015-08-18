@@ -1,0 +1,63 @@
+From boazanin at gmail.com  Sat May 13 19:51:12 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Sat, 13 May 2006 20:51:12 +0300
+Subject: [opdb-core-devel] Fwd: [FirePhish Anti-Phishing Extension 0.1.1] Approval Granted
+In-Reply-To: <200605131651.k4DGpab6022006@iguana.mozilla.org>
+References: <200605131651.k4DGpab6022006@iguana.mozilla.org>
+Message-ID: <710408490605131051q7b0f8e46p6a1bb6989ff372f8@mail.gmail.com>
+
+AT LONG LONG LAST!!! They approved it. And nice comments too.
+
+I hope this time it's downloadable.
+
+---------- Forwarded message ----------
+From: Mozilla Update <update-daemon at mozilla.org>
+Date: May 13, 2006 7:51 PM
+Subject: [FirePhish Anti-Phishing Extension 0.1.1] Approval Granted
+To: boazanin at gmail.com
+
+FirePhish Anti-Phishing Extension 0.1.1 - Approval Granted
+Your item, FirePhish Anti-Phishing Extension 0.1.1, has been reviewed by a
+Mozilla Update editor who took the following action:
+Approval Granted
+
+Please Note: It may take up to 30 minutes for your extension to be available
+for download.
+
+Your item was tested by Nitallica using Firefox 1.5.0.3 on WinXP.
+Editor's Comments:
+A very handy extension. The screenshots are very detailed and informative,
+giving the user an idea of what to expect when installing and using your
+extension.  This will definitely be appreciated by your would-be extension
+users! :) Thank you for your time and efforts in improving the usefulness
+and the appeal of Mozilla products, you are most appreciated! :)
+----
+Mozilla Update: https://addons.mozilla.org/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060513/95522866/attachment.html>
+
+From livne at kde.org  Sat May 13 20:06:57 2006
+From: livne at kde.org (Meni Livne)
+Date: Sat, 13 May 2006 21:06:57 +0300
+Subject: [opdb-core-devel] Fwd: [FirePhish Anti-Phishing Extension 0.1.1] Approval Granted
+In-Reply-To: <710408490605131051q7b0f8e46p6a1bb6989ff372f8@mail.gmail.com>
+References: <200605131651.k4DGpab6022006@iguana.mozilla.org> <710408490605131051q7b0f8e46p6a1bb6989ff372f8@mail.gmail.com>
+Message-ID: <200605132106.57833.livne@kde.org>
+
+On Saturday May 13 2006 20:51, Boaz Anin wrote:
+> AT LONG LONG LAST!!! They approved it. And nice comments too.
+>
+> I hope this time it's downloadable.
+
+It's about time. :)
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+

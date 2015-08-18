@@ -1,0 +1,91 @@
+From aaron at freebsd.org  Mon Jun  5 23:46:50 2006
+From: aaron at freebsd.org (Aaron Dalton)
+Date: Mon, 05 Jun 2006 15:46:50 -0600
+Subject: [opdb-core-devel] Patch for libphish-0.1.0
+Message-ID: <4484A64A.8070300@freebsd.org>
+
+On Unix systems (like FreeBSD) there's an additional include that's 
+required when using socket.h, namely types.h.  Attached is a patch for 
+libphish v0.1.0 that adds this include in the appropriate places.
+
+Cheers!
+-- 
+Aaron Dalton
+aaron at FreeBSD.org
+FreeBSD Ports Committer
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: patch-src-phish_util_net.c
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060605/c01ebfeb/attachment.c>
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: patch-src-phish_opdb_server.c
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060605/c01ebfeb/attachment-0001.c>
+
+From boazanin at gmail.com  Tue Jun  6 13:42:59 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Tue, 6 Jun 2006 14:42:59 +0300
+Subject: [opdb-core-devel] Patch for libphish-0.1.0
+In-Reply-To: <4484A64A.8070300@freebsd.org>
+References: <4484A64A.8070300@freebsd.org>
+Message-ID: <710408490606060442g6769bd81pe899bb53c6428ec0@mail.gmail.com>
+
+We thank you for your contribution to libphish and the Open Phishing
+Database project!
+
+Your patch will be committed to our SVN repository and it will be part of
+the next release of libphish.
+
+Well done!
+Boaz.
+
+On 6/6/06, Aaron Dalton <aaron at freebsd.org> wrote:
+>
+> On Unix systems (like FreeBSD) there's an additional include that's
+> required when using socket.h, namely types.h.  Attached is a patch for
+> libphish v0.1.0 that adds this include in the appropriate places.
+>
+> Cheers!
+> --
+> Aaron Dalton
+> aaron at FreeBSD.org
+> FreeBSD Ports Committer
+>
+>
+> --- src/phish_util_net.c.orig   Mon Mar 20 09:54:25 2006
+> +++ src/phish_util_net.c        Mon Jun  5 13:40:14 2006
+> @@ -30,6 +30,8 @@
+> +#include <sys/types.h>
+> +#include <sys/socket.h>
+> #include <netdb.h>
+> #include <netinet/in.h>
+> #include <arpa/inet.h>
+> #endif
+>
+> #include "phish.h"
+> @@ -72,7 +74,7 @@
+>    h->ent = NULL;
+>    h->buf = NULL;
+>
+> -#ifdef WIN32
+> +#if defined(WIN32) || defined(FreeBSD)
+>
+>    h->ent = gethostbyname(name);
+>
+>
+> --- src/phish_opdb_server.c.orig        Sun Mar 19 11:40:55 2006
+> +++ src/phish_opdb_server.c     Mon Jun  5 13:33:51 2006
+> @@ -21,6 +21,7 @@
+> #define close closesocket
+> #include <winsock2.h>
+> #else
+> +#include <sys/types.h>
+> #include <sys/socket.h>
+> #include <unistd.h>
+> #endif
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060606/941a33ef/attachment.html>
+

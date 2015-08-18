@@ -1,0 +1,109 @@
+From boazanin at gmail.com  Thu Oct  5 01:04:08 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 5 Oct 2006 02:04:08 +0300
+Subject: [opdb-core-devel] Fwd: [FirePhish Anti-Phishing Extension 0.1.2]
+	Approval Granted
+In-Reply-To: <710408490610041603w19d8875eo73d32a49c9fe4c0@mail.gmail.com>
+References: <200610041930.k94JU0Ae016269@mrapp06.mozilla.org>
+	<710408490610041603w19d8875eo73d32a49c9fe4c0@mail.gmail.com>
+Message-ID: <710408490610041604n17a12493gea2cb1a5c5c84e6b@mail.gmail.com>
+
+FirePhish Anti-Phishing Extension 0.1.2 - Approval Granted
+Your item, FirePhish Anti-Phishing Extension 0.1.2, has been reviewed by a
+Mozilla Update editor who took the following action:
+Approval Granted
+
+Please Note: It may take up to 30 minutes for your extension to be available
+for download.
+
+Your item was tested by sami using Firefox 1.5.0.7, 2.0 RC1 on Linux,
+Windows.
+Editor's Comments:
+ Thank you for the updating your extension for Firefox 2.0. I did notice a
+small problem though: if a site doesn't exist (i.e. Firefox shows the Server
+not found error page) and it is found in the anti-phishing database, the
+extension makes Firefox hang for a moment when changing tabs. The same
+problem exists in version 0.1.1 too.
+----
+Mozilla Update: https://addons.mozilla.org/
+
+
+---------- Forwarded message ----------
+Wrom:
+QZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOT
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20061005/5e3977ea/attachment.html>
+
+From livne at kde.org  Thu Oct  5 11:11:39 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 5 Oct 2006 11:11:39 +0200
+Subject: [opdb-core-devel] Fwd: [FirePhish Anti-Phishing Extension
+	0.1.2] Approval Granted
+In-Reply-To: <710408490610041604n17a12493gea2cb1a5c5c84e6b@mail.gmail.com>
+References: <200610041930.k94JU0Ae016269@mrapp06.mozilla.org>
+	<710408490610041603w19d8875eo73d32a49c9fe4c0@mail.gmail.com>
+	<710408490610041604n17a12493gea2cb1a5c5c84e6b@mail.gmail.com>
+Message-ID: <200610051111.39631.livne@kde.org>
+
+On Thursday October 5 2006 01:04, Boaz Anin wrote:
+>  Thank you for the updating your extension for Firefox 2.0. I did notice a
+> small problem though: if a site doesn't exist (i.e. Firefox shows the
+> Server not found error page) and it is found in the anti-phishing database,
+> the extension makes Firefox hang for a moment when changing tabs. The same
+> problem exists in version 0.1.1 too.
+
+You might want to fix that lest you have to walk around with a brown paper bag 
+over your head...
+:)
+
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+From boazanin at gmail.com  Thu Oct  5 11:13:02 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 5 Oct 2006 11:13:02 +0200
+Subject: [opdb-core-devel] Fwd: [FirePhish Anti-Phishing Extension
+	0.1.2] Approval Granted
+In-Reply-To: <200610051111.39631.livne@kde.org>
+References: <200610041930.k94JU0Ae016269@mrapp06.mozilla.org>
+	<710408490610041603w19d8875eo73d32a49c9fe4c0@mail.gmail.com>
+	<710408490610041604n17a12493gea2cb1a5c5c84e6b@mail.gmail.com>
+	<200610051111.39631.livne@kde.org>
+Message-ID: <710408490610050213i24f41fd3t11d9fe65c92ea217@mail.gmail.com>
+
+It's a known problem with no easy solution. Will be solved in next version.
+
+On 10/5/06, Meni Livne <livne at kde.org> wrote:
+>
+> On Thursday October 5 2006 01:04, Boaz Anin wrote:
+> >  Thank you for the updating your extension for Firefox 2.0. I did notice
+> a
+> > small problem though: if a site doesn't exist (i.e. Firefox shows the
+> > Server not found error page) and it is found in the anti-phishing
+> database,
+> > the extension makes Firefox hang for a moment when changing tabs. The
+> same
+> > problem exists in version 0.1.1 too.
+>
+> You might want to fix that lest you have to walk around with a brown paper
+> bag
+> over your head...
+> :)
+>
+>
+> --
+> Meni Livne <livne at kde.org>
+>
+> _______________________________________________
+> opdb-core-devel mailing list
+> opdb-core-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/opdb-core-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20061005/ae71afdf/attachment.html>
+

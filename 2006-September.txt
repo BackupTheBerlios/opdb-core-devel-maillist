@@ -1,0 +1,482 @@
+From boazanin at gmail.com  Tue Sep 26 20:52:38 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Tue, 26 Sep 2006 21:52:38 +0300
+Subject: [opdb-core-devel] Fwd: Add-on Compatibility in Firefox 2
+In-Reply-To: <200609261756.k8QHuYN9023920@khan-vm.mozilla.org>
+References: <200609261756.k8QHuYN9023920@khan-vm.mozilla.org>
+Message-ID: <710408490609261152u7d890e06pe3d3b1ea5db4d15e@mail.gmail.com>
+
+I updated FirePhish to version 0.1.2 which supports FireFox 2.0.
+They should soon confirm it and it will be available from addons.mozilla.org
+.
+Hopefully I'll get that T-shirt.
+
+The comments I added to the release:
+-----------------------------
+Now compatible with FireFox 2.0!
+You can also hide the toolbar (View->Toolbars->FirePhish Toolbar) and the
+protections still work!
+
+* You still get the blinking-red warning when entering
+high-risk phishing-suspected sites
+
+* You still get the famous "all safe" green frame around the location bar
+when entering sites on your Safe List
+
+Enjoy!
+-----------------------------
+
+Boaz.
+
+P.S.
+Meni - please update the OPDB site accordingly when you find the time.
+
+
+---------- Forwarded message ----------
+Wrom:
+AFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOBUZXUWLSZLKBRNVWWCUFPEGAUTFJMVRESKPNKMBIPBARHDMNNSKVFVWRKJVZCMHVIBGDADRZFSQHYUCDDJBLVLMHAALPTCXLYRWTQTIPWIGYOKSTTZRCLBDXRQBGJSNBOHMKHJYFMYXOEAIJJPHSCRTNHGSWZIDREXCAXZOWCONEUQZAAFXISHJEXXIMQZUIVOTQNQEMSFDULHPQQWOYIYZUNNYCGPKYLEJGDGVCJVTLBXFGGMEPYOQKEDOTWFAOB
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060926/03ceb59b/attachment.html>
+
+From boazanin at gmail.com  Tue Sep 26 20:54:06 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Tue, 26 Sep 2006 21:54:06 +0300
+Subject: [opdb-core-devel] Add-on Compatibility in Firefox 2
+In-Reply-To: <710408490609261152u7d890e06pe3d3b1ea5db4d15e@mail.gmail.com>
+References: <200609261756.k8QHuYN9023920@khan-vm.mozilla.org>
+	<710408490609261152u7d890e06pe3d3b1ea5db4d15e@mail.gmail.com>
+Message-ID: <710408490609261154w203de4acw8bc0a38996657952@mail.gmail.com>
+
+In case you can't read it, the forwarded, original message was:
+
+Dear Extension Developer:
+
+We're now in the final stages of development for "Firefox 2".  Shortly, we
+will be releasing the first Release Candidate. You should now be working to
+update your extensions to be compatible.
+
+Detailed information on changes relevant to developers in Firefox 2:
+http://developer.mozilla.org/en/docs/Firefox_2_for_developers#For_XUL_and_extension_developers
+
+Reference information on updating your extensions version information:
+http://developer.mozilla.org/en/docs/Extensions
+http://developer.mozilla.org/en/docs/Install_Manifests
+http://developer.mozilla.org/en/docs/Building_an_Extension
+
+And, as always, help is available on the #extdev channel on
+irc.mozilla.organd in the
+mozilla.dev.extensions newsgroup.
+
+As of right now, you should be validating against the first release
+candidate. Here are links to the builds:
+
+Windows
+http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2.0rc1-candidates/rc1/firefox-2.0.en-US.win32.installer.exe
+
+Mac
+http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2.0rc1-candidates/rc1/firefox-2.0.en-US.mac.dmg
+
+Linux
+http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2.0rc1-candidates/rc1/firefox-2.0.en-US.linux-i686.tar.gz
+
+As an extra incentive, we're planning on sending a limited edition "Bon
+Echo" ExtensionTeam shirt to each and every extension developer who
+validates their extensions for Firefox 2 with an update posted to
+addons.mozilla.org by midnight pacific time on Sunday, October 1st 2006.
+
+Looking forward to a successful launch of Firefox 2!
+
+Best regards,
+
+Firefox Product Team
+
+On 9/26/06, Boaz Anin <boazanin at gmail.com> wrote:
+>
+> I updated FirePhish to version 0.1.2 which supports FireFox 2.0.
+> They should soon confirm it and it will be available from
+> addons.mozilla.org.
+> Hopefully I'll get that T-shirt.
+>
+> The comments I added to the release:
+> -----------------------------
+> Now compatible with FireFox 2.0!
+> You can also hide the toolbar (View->Toolbars->FirePhish Toolbar) and the
+> protections still work!
+>
+> * You still get the blinking-red warning when entering
+> high-risk phishing-suspected sites
+>
+> * You still get the famous "all safe" green frame around the location bar
+> when entering sites on your Safe List
+>
+> Enjoy!
+> -----------------------------
+>
+> Boaz.
+>
+> P.S.
+> Meni - please update the OPDB site accordingly when you find the time.
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060926/1944018f/attachment.html>
+
+From livne at kde.org  Wed Sep 27 22:17:43 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 27 Sep 2006 23:17:43 +0300 (IDT)
+Subject: [opdb-core-devel] Fwd: Add-on Compatibility in Firefox 2
+In-Reply-To: <710408490609261152u7d890e06pe3d3b1ea5db4d15e@mail.gmail.com>
+References: <200609261756.k8QHuYN9023920@khan-vm.mozilla.org>
+	<710408490609261152u7d890e06pe3d3b1ea5db4d15e@mail.gmail.com>
+Message-ID: <1915.82.141.254.209.1159388263.squirrel@webmail.livne.org>
+
+On Tue, September 26, 2006 21:52, Boaz Anin said:
+> I updated FirePhish to version 0.1.2 which supports FireFox 2.0.
+> They should soon confirm it and it will be available from
+> addons.mozilla.org
+
+That's great.
+
+> P.S.
+> Meni - please update the OPDB site accordingly when you find the time.
+
+You can update the site with news of the release.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+
+
+From livne at kde.org  Wed Sep 27 22:30:13 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 27 Sep 2006 23:30:13 +0300 (IDT)
+Subject: [opdb-core-devel] aKademy 2006 Conference Report
+Message-ID: <2048.82.141.254.209.1159389013.squirrel@webmail.livne.org>
+
+Hi all,
+
+I've attended the KDE world conference, aKademy 2006, in Trinity College,
+Dublin. Among other things I've met there with George Staikos. George is a
+KDE developer who works on security features in KDE and the Konqueror
+browser. In the past he has organised meetings with developers of others
+browsers about browser security, and in particular the threat of phishing
+(http://dot.kde.org/1132619164/).
+
+I talked to George after his talk on the anti-phishing framework which is
+planned for KDE 4. He has heard of OPDB, though he didn't know that we
+already have a Konqueror plugin. He said that the anti-phishing framework
+will have pluggable backends, so basically it will be possible to use
+different anti-phishing databases. He said that he would really like it if
+we'd have a backend using OPDB. I told him that with libphish this should
+be fairly easy. So I will look into it.
+
+More on the talk:
+http://conference2006.kde.org/conference/talks/29.php
+Picture from the talk:
+http://meni.livne.org/gallery/tcd/IMG_0695
+
+Hopefully the slides, together with a transcript, and the video or the
+lecture (or at least a voice recording) will be available soon.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+
+
+From livne at kde.org  Wed Sep 27 22:34:13 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 27 Sep 2006 23:34:13 +0300 (IDT)
+Subject: [opdb-core-devel] Plugin
+In-Reply-To: <200609261419.33035.staikos@kde.org>
+References: <200609261419.33035.staikos@kde.org>
+Message-ID: <2062.82.141.254.209.1159389253.squirrel@webmail.livne.org>
+
+On Tue, September 26, 2006 21:19, George Staikos said:
+> Hi Meni,
+>
+>   Nice to see you at aKademy.  Please do consider looking into a SafeSite
+> plugin for your anti-phishing backend.  We would really like to see this.
+> I
+> can help with any issues that come up.  Also if you would like to
+> participate
+> in any security working groups like the ones I do, feel free to contact me
+> and I can help get you involved.
+>
+> Thanks!
+
+Hi George,
+
+Great. I'll check out that framework that you've written, and I do believe
+that it will be fairly easy for me to write a backed for OPDB, since like
+I said we already have a library to access the database.
+
+I'll let you know if I have any questions or comments.
+
+> --
+> George Staikos
+> KDE Developer				http://www.kde.org/
+> Staikos Computing Services Inc.		http://www.staikos.net/
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+
+
+From boazanin at gmail.com  Thu Sep 28 19:54:58 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 28 Sep 2006 20:54:58 +0300
+Subject: [opdb-core-devel] Firefox 2.0 includes an anti-phishing solution
+Message-ID: <710408490609281054u17cf86cco9ee9b1bcf724d6c2@mail.gmail.com>
+
+Firefox 2.0 includes an anti-phishing solution.
+It implements the same basic idea in FirePhish - check the URL against a
+list of suspected sites.
+There are no details about this list or who maintains it, however it is
+quite updated (some of the sites in our review list were already listed in
+their list, and I received a warning from Firefox when entering them).
+
+Attached is an image of the security options tab in Firefox 2.0.
+
+Boaz.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060928/1d2b374c/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ff2.gif
+Type: image/gif
+Size: 44098 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060928/1d2b374c/attachment.gif>
+
+From livne at kde.org  Thu Sep 28 21:21:22 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 28 Sep 2006 22:21:22 +0300 (IDT)
+Subject: [opdb-core-devel] Firefox 2.0 includes an anti-phishing solution
+In-Reply-To: <710408490609281054u17cf86cco9ee9b1bcf724d6c2@mail.gmail.com>
+References: <710408490609281054u17cf86cco9ee9b1bcf724d6c2@mail.gmail.com>
+Message-ID: <2109.82.141.254.209.1159471282.squirrel@webmail.livne.org>
+
+On Thu, September 28, 2006 20:54, Boaz Anin said:
+> Firefox 2.0 includes an anti-phishing solution.
+> It implements the same basic idea in FirePhish - check the URL against a
+> list of suspected sites.
+> There are no details about this list or who maintains it, however it is
+> quite updated (some of the sites in our review list were already listed in
+> their list, and I received a warning from Firefox when entering them).
+>
+> Attached is an image of the security options tab in Firefox 2.0.
+
+So does it use Google? What are the other options there?
+
+
+--
+Meni Livne
+
+
+
+
+
+
+From boazanin at gmail.com  Thu Sep 28 23:49:50 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Fri, 29 Sep 2006 00:49:50 +0300
+Subject: [opdb-core-devel] Firefox 2.0 includes an anti-phishing solution
+In-Reply-To: <2109.82.141.254.209.1159471282.squirrel@webmail.livne.org>
+References: <710408490609281054u17cf86cco9ee9b1bcf724d6c2@mail.gmail.com>
+	<2109.82.141.254.209.1159471282.squirrel@webmail.livne.org>
+Message-ID: <710408490609281449s11eaab82l29953b64fc36d921@mail.gmail.com>
+
+The default is not Google, but rather a list downloaded from Mozilla (i
+gather).
+Currently Google is the only option listed there as an alternative.
+
+On 9/28/06, Meni Livne <livne at kde.org> wrote:
+>
+> On Thu, September 28, 2006 20:54, Boaz Anin said:
+> > Firefox 2.0 includes an anti-phishing solution.
+> > It implements the same basic idea in FirePhish - check the URL against a
+> > list of suspected sites.
+> > There are no details about this list or who maintains it, however it is
+> > quite updated (some of the sites in our review list were already listed
+> in
+> > their list, and I received a warning from Firefox when entering them).
+> >
+> > Attached is an image of the security options tab in Firefox 2.0.
+>
+> So does it use Google? What are the other options there?
+>
+>
+> --
+> Meni Livne
+>
+>
+>
+>
+> _______________________________________________
+> opdb-core-devel mailing list
+> opdb-core-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/opdb-core-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060929/019e8ed7/attachment.html>
+
+From boazanin at gmail.com  Fri Sep 29 11:31:00 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Fri, 29 Sep 2006 12:31:00 +0300
+Subject: [opdb-core-devel] Firefox 2.0 includes an anti-phishing solution
+In-Reply-To: <710408490609281449s11eaab82l29953b64fc36d921@mail.gmail.com>
+References: <710408490609281054u17cf86cco9ee9b1bcf724d6c2@mail.gmail.com>
+	<2109.82.141.254.209.1159471282.squirrel@webmail.livne.org>
+	<710408490609281449s11eaab82l29953b64fc36d921@mail.gmail.com>
+Message-ID: <710408490609290231t69a0c86avb9ccc9b14174d72e@mail.gmail.com>
+
+More information here:
+http://www.mozilla.org/projects/bonecho/anti-phishing/
+
+On 9/29/06, Boaz Anin <boazanin at gmail.com> wrote:
+>
+> The default is not Google, but rather a list downloaded from Mozilla (i
+> gather).
+> Currently Google is the only option listed there as an alternative.
+>
+> On 9/28/06, Meni Livne <livne at kde.org> wrote:
+> >
+> > On Thu, September 28, 2006 20:54, Boaz Anin said:
+> > > Firefox 2.0 includes an anti-phishing solution.
+> > > It implements the same basic idea in FirePhish - check the URL against
+> > a
+> > > list of suspected sites.
+> > > There are no details about this list or who maintains it, however it
+> > is
+> > > quite updated (some of the sites in our review list were already
+> > listed in
+> > > their list, and I received a warning from Firefox when entering them).
+> > >
+> > > Attached is an image of the security options tab in Firefox 2.0.
+> >
+> > So does it use Google? What are the other options there?
+> >
+> >
+> > --
+> > Meni Livne
+> >
+> >
+> >
+> >
+> > _______________________________________________
+> > opdb-core-devel mailing list
+> > opdb-core-devel at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/opdb-core-devel
+> >
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060929/9ea1201f/attachment.html>
+
+From livne at kde.org  Fri Sep 29 19:42:30 2006
+From: livne at kde.org (Meni Livne)
+Date: Fri, 29 Sep 2006 20:42:30 +0300 (IDT)
+Subject: [opdb-core-devel] phish db
+In-Reply-To: <200609282026.QAA54759@raptor.research.att.com>
+References: <200609282026.QAA54759@raptor.research.att.com>
+Message-ID: <63500.86.41.135.181.1159551750.squirrel@webmail.livne.org>
+
+On Thu, September 28, 2006 23:26, Balachander Krishnamurthy said:
+> is the list of sites that u consider phishy available for download?
+> or is the expectation that the ff extension will make a local copy
+> and just get updates periodically?
+> thanks
+> bala
+
+Hi,
+
+Yes, it is available for download as an XML file which is used for
+checking a site locally when using the toolbar in Offline Mode (the
+default). In this mode it indeed downloads a local copy and checks for
+updates in an interval which is configurable.
+You can find the list of sites at http://opdb.berlios.de/opdbsites.xml.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+
+
+From livne at kde.org  Fri Sep 29 19:46:46 2006
+From: livne at kde.org (Meni Livne)
+Date: Fri, 29 Sep 2006 20:46:46 +0300 (IDT)
+Subject: [opdb-core-devel] Firefox 2.0 includes an anti-phishing solution
+In-Reply-To: <710408490609290231t69a0c86avb9ccc9b14174d72e@mail.gmail.com>
+References: <710408490609281054u17cf86cco9ee9b1bcf724d6c2@mail.gmail.com>
+	<2109.82.141.254.209.1159471282.squirrel@webmail.livne.org>
+	<710408490609281449s11eaab82l29953b64fc36d921@mail.gmail.com>
+	<710408490609290231t69a0c86avb9ccc9b14174d72e@mail.gmail.com>
+Message-ID: <64119.86.41.135.181.1159552006.squirrel@webmail.livne.org>
+
+On Fri, September 29, 2006 12:31, Boaz Anin said:
+> More information here:
+> http://www.mozilla.org/projects/bonecho/anti-phishing/
+
+Still it doesn't explain much.
+Maybe you should contact them about having OPDB as an option? What would
+they require? I believe it would be fairly easy...
+
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+
+
+From livne at kde.org  Fri Sep 29 19:56:12 2006
+From: livne at kde.org (Meni Livne)
+Date: Fri, 29 Sep 2006 20:56:12 +0300 (IDT)
+Subject: [opdb-core-devel] phish db
+In-Reply-To: <200609291747.NAA92017@raptor.research.att.com>
+References: Your message of Fri, 29 Sep 2006 20:42:30 +0300.            
+	<63500.86.41.135.181.1159551750.squirrel@webmail.livne.org>
+	<200609291747.NAA92017@raptor.research.att.com>
+Message-ID: <65383.86.41.135.181.1159552572.squirrel@webmail.livne.org>
+
+On Fri, September 29, 2006 20:47, Balachander Krishnamurthy said:
+>
+> ah, so it looks like you have only 110 phish IPs in your db?
+
+If you counted them and that's what the number came out to, then yes.
+We rely on reports from our users for adding sites to the database.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+
+

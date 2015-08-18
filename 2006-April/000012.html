@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [opdb-core-devel] Fwd: Re: OPDB
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/opdb-core-devel/2006-April/index.html" >
+   <LINK REL="made" HREF="mailto:opdb-core-devel%40lists.berlios.de?Subject=Re%3A%20%5Bopdb-core-devel%5D%20Fwd%3A%20Re%3A%20OPDB&In-Reply-To=%3C710408490604130739q5cdd46d0g1f99d40fe8d2dfe6%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000010.html">
+   <LINK REL="Next"  HREF="000013.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[opdb-core-devel] Fwd: Re: OPDB</H1>
+    <B>Boaz Anin</B> 
+    <A HREF="mailto:opdb-core-devel%40lists.berlios.de?Subject=Re%3A%20%5Bopdb-core-devel%5D%20Fwd%3A%20Re%3A%20OPDB&In-Reply-To=%3C710408490604130739q5cdd46d0g1f99d40fe8d2dfe6%40mail.gmail.com%3E"
+       TITLE="[opdb-core-devel] Fwd: Re: OPDB">boazanin at gmail.com
+       </A><BR>
+    <I>Thu Apr 13 16:39:43 CEST 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000010.html">[opdb-core-devel] Fwd: Re: OPDB
+</A></li>
+        <LI>Next message: <A HREF="000013.html">[opdb-core-devel] Fwd: Re: OPDB
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#12">[ date ]</a>
+              <a href="thread.html#12">[ thread ]</a>
+              <a href="subject.html#12">[ subject ]</a>
+              <a href="author.html#12">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Seems like a serious bloke, I think we can cooperate with him, i.e. let his
+software use the OPDB, and more importantly - let his users report phisy
+sites!
+
+On 4/13/06, Meni Livne &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/opdb-core-devel">livne at kde.org</A>&gt; wrote:
+&gt;<i>
+</I>&gt;<i> What do you think about this?
+</I>&gt;<i>
+</I>&gt;<i> ----------  Forwarded Message  ----------
+</I>&gt;<i>
+</I>&gt;<i> Subject: Re: OPDB
+</I>&gt;<i> Date: Thursday April 13 2006 16:59
+</I>&gt;<i> From: Thomas Mangin &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/opdb-core-devel">thomas.mangin at exa-networks.co.uk</A>&gt;
+</I>&gt;<i> To: Meni Livne &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/opdb-core-devel">livne at kde.org</A>&gt;
+</I>&gt;<i>
+</I>&gt;<i> Meni Livne wrote:
+</I>&gt;<i> &gt; What is the nature of this product? Is it completely closed or is it
+</I>&gt;<i> just
+</I>&gt;<i> &gt; non-GPL Free/Open Source? Is this something you're planning on selling?
+</I>&gt;<i>
+</I>&gt;<i> It is a web content filtering software/cluster used by our customers. They
+</I>&gt;<i> can then select the type of site they want to allow or not for their
+</I>&gt;<i> connection.
+</I>&gt;<i>
+</I>&gt;<i> As this is something which gives us an advantage to sell DSL over our
+</I>&gt;<i> direct
+</I>&gt;<i> UK competitor, I am not really keen to open it as GPL right now.
+</I>&gt;<i>
+</I>&gt;<i> &gt; Those scripts we have used during development. It's not what the library
+</I>&gt;<i> &gt; uses when used from browser extensions. Where did you find that URL?
+</I>&gt;<i>
+</I>&gt;<i> from the src/tests/config.txt file.
+</I>&gt;<i>
+</I>&gt;<i> &gt;&gt; I would have no issue to write a python version of the library if you
+</I>&gt;<i> &gt;&gt; are interested.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; That would be very nice and greatly appreciated.
+</I>&gt;<i>
+</I>&gt;<i> Then it is likely to happen.
+</I>&gt;<i>
+</I>&gt;<i> &gt; Thank you for the offer. Currently we have hosting, but if a need may
+</I>&gt;<i> arise
+</I>&gt;<i> &gt; in the future, I'll let you know.
+</I>&gt;<i>
+</I>&gt;<i> The offer is here to stay, as I would like to host a copy of your DB for
+</I>&gt;<i> performance reason (if you are looking at mirrors).
+</I>&gt;<i>
+</I>&gt;<i> &gt; I can provide with more information about the query scripts, including
+</I>&gt;<i> the
+</I>&gt;<i> &gt; sources, but I was just wondering about that product... I'd be glad if
+</I>&gt;<i> you
+</I>&gt;<i> &gt; can provide me with a bit more information...
+</I>&gt;<i>
+</I>&gt;<i> I would appreciate it would make my live much easier.
+</I>&gt;<i>
+</I>&gt;<i> We are intercepting packet for destination port 80 at the end of our DSL
+</I>&gt;<i> pipe
+</I>&gt;<i> (the UK have a number of law project to force ISPs to protect their
+</I>&gt;<i> customer
+</I>&gt;<i> from &quot;unlawful&quot; content - welcome to 1984 ..)
+</I>&gt;<i>
+</I>&gt;<i> Those packet are source and destination natted to a squid farm. Each squid
+</I>&gt;<i> proxy have a url rewriter which will query (passing though some cache) a
+</I>&gt;<i> postgresql DB, depending on the answer (allowed, deny, not classified yet)
+</I>&gt;<i> a
+</I>&gt;<i> page is served.
+</I>&gt;<i>
+</I>&gt;<i> The classification it use a combination of pattern matching (similar to
+</I>&gt;<i> Dan's
+</I>&gt;<i> guardian) and bayesian on url, html, text of html, meta content, plus a
+</I>&gt;<i> few
+</I>&gt;<i> trick for search engine, etc.nat
+</I>&gt;<i>
+</I>&gt;<i> If you want to look at a similar GPL soft you can look at &quot;POESIA&quot; but
+</I>&gt;<i> IMHO
+</I>&gt;<i> it is over engineered and not stable enough.
+</I>&gt;<i>
+</I>&gt;<i> Thomas
+</I>&gt;<i> --
+</I>&gt;<i> Exa Networks Limited - UK - AS30740 - www.exa-networks.co.uk
+</I>&gt;<i> nic-handle : MANG-RIPE   website  : thomas.mangin.me.uk
+</I>&gt;<i> GPG key ID : 0xFB8B81A1  PGP key  : /pgp.html
+</I>&gt;<i> Inoc-DBA # : 30740*TOM   Office # : +44 (0) 845 145 1234
+</I>&gt;<i>
+</I>&gt;<i> <A HREF="http://www.ispaawards.org.uk/categories/broadl_business.htm">http://www.ispaawards.org.uk/categories/broadl_business.htm</A>
+</I>&gt;<i> <A HREF="http://www.ispaawards.org.uk/categories/BestBusiness.htm">http://www.ispaawards.org.uk/categories/BestBusiness.htm</A>
+</I>&gt;<i>
+</I>&gt;<i> -------------------------------------------------------
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> opdb-core-devel mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/opdb-core-devel">opdb-core-devel at berlios.de</A>
+</I>&gt;<i> <A HREF="http://lists.berlios.de/mailman/listinfo/opdb-core-devel">http://lists.berlios.de/mailman/listinfo/opdb-core-devel</A>
+</I>&gt;<i>
+</I>-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/36886b8c/attachment.html">https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/36886b8c/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000010.html">[opdb-core-devel] Fwd: Re: OPDB
+</A></li>
+	<LI>Next message: <A HREF="000013.html">[opdb-core-devel] Fwd: Re: OPDB
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#12">[ date ]</a>
+              <a href="thread.html#12">[ thread ]</a>
+              <a href="subject.html#12">[ subject ]</a>
+              <a href="author.html#12">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/opdb-core-devel">More information about the opdb-core-devel
+mailing list</a><br>
+</body></html>

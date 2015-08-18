@@ -1,0 +1,122 @@
+From shaharka at post.tau.ac.il  Mon Nov 27 22:47:05 2006
+From: shaharka at post.tau.ac.il (shaharka at post.tau.ac.il)
+Date: Mon, 27 Nov 2006 23:47:05 +0200
+Subject: [opdb-core-devel] A problem that I encounter with FireFish
+Message-ID: <1164664025.456b5cd9f12d1@webmail.tau.ac.il>
+
+Hello,
+   Every site I enter has a High Risk level.
+   I use FireFox 1.5 on Windows 2000 Professional with FirePhish 0.1
+
+                                      Good Night,
+                                             Shahar
+
+
+
+----------------------------------------------------------------
+This message was sent using IMP, the Internet Messaging Program.
+
+
+
+From boazanin at gmail.com  Tue Nov 28 07:59:59 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Tue, 28 Nov 2006 08:59:59 +0200
+Subject: [opdb-core-devel] A problem that I encounter with FireFish
+In-Reply-To: <1164664025.456b5cd9f12d1@webmail.tau.ac.il>
+References: <1164664025.456b5cd9f12d1@webmail.tau.ac.il>
+Message-ID: <710408490611272259t97f10adm6170def13946bd81@mail.gmail.com>
+
+Interesting. I don't seem to have that problem.
+We will be in touch for further checking.
+
+However I do recommend you upgrade to version 0.12.
+
+
+On 11/27/06, shaharka at post.tau.ac.il <shaharka at post.tau.ac.il> wrote:
+>
+> Hello,
+>    Every site I enter has a High Risk level.
+>    I use FireFox 1.5 on Windows 2000 Professional with FirePhish 0.1
+>
+>                                       Good Night,
+>                                              Shahar
+>
+>
+>
+> ----------------------------------------------------------------
+> This message was sent using IMP, the Internet Messaging Program.
+>
+> _______________________________________________
+> opdb-core-devel mailing list
+> opdb-core-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/opdb-core-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20061128/c25cb2ac/attachment.html>
+
+From livne at kde.org  Tue Nov 28 09:22:06 2006
+From: livne at kde.org (Meni Livne)
+Date: Tue, 28 Nov 2006 10:22:06 +0200
+Subject: [opdb-core-devel] A problem that I encounter with FireFish
+In-Reply-To: <1164664025.456b5cd9f12d1@webmail.tau.ac.il>
+References: <1164664025.456b5cd9f12d1@webmail.tau.ac.il>
+Message-ID: <200611281022.06635.livne@kde.org>
+
+On Monday November 27 2006 23:47, shaharka at post.tau.ac.il wrote:
+> Hello,
+>    Every site I enter has a High Risk level.
+>    I use FireFox 1.5 on Windows 2000 Professional with FirePhish 0.1
+
+Like Boaz said, you should upgrade. I see you're querying the old database, 
+not the one at BerliOS. Check the query URL in the settings file of libphish 
+(Boaz, where's that in Windows?).
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+From boazanin at gmail.com  Tue Nov 28 12:27:26 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Tue, 28 Nov 2006 13:27:26 +0200
+Subject: [opdb-core-devel] A problem that I encounter with FireFish
+In-Reply-To: <200611281022.06635.livne@kde.org>
+References: <1164664025.456b5cd9f12d1@webmail.tau.ac.il>
+	<200611281022.06635.livne@kde.org>
+Message-ID: <710408490611280327r3fa621ccm36fc7293ce7adec2@mail.gmail.com>
+
+Anti-Phising->Settings->Advanced->Site Query URL.
+It should be http://opdb.berlios.de/cgi-bin/query.pl .
+
+On 11/28/06, Meni Livne <livne at kde.org> wrote:
+>
+> On Monday November 27 2006 23:47, shaharka at post.tau.ac.il wrote:
+> > Hello,
+> >    Every site I enter has a High Risk level.
+> >    I use FireFox 1.5 on Windows 2000 Professional with FirePhish 0.1
+>
+> Like Boaz said, you should upgrade. I see you're querying the old
+> database,
+> not the one at BerliOS. Check the query URL in the settings file of
+> libphish
+> (Boaz, where's that in Windows?).
+>
+>
+> Regards.
+>
+> --
+> Meni Livne <livne at kde.org>
+>
+> _______________________________________________
+> opdb-core-devel mailing list
+> opdb-core-devel at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/opdb-core-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20061128/6e32b4fa/attachment.html>
+

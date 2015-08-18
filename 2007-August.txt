@@ -1,0 +1,36 @@
+From livne at kde.org  Fri Aug 17 02:17:43 2007
+From: livne at kde.org (Meni Livne)
+Date: Fri, 17 Aug 2007 03:17:43 +0300
+Subject: [opdb-core-devel] phishtank
+In-Reply-To: <dcc126aa0708161120n5a0479cdq90266b5acc546671@mail.gmail.com>
+References: <dcc126aa0708161120n5a0479cdq90266b5acc546671@mail.gmail.com>
+Message-ID: <200708170317.44639.livne@kde.org>
+
+On Thursday August 16 2007 21:20:54 Mike Coles wrote:
+> Hello all,
+>
+>      I recently installed the phishtank add-on for Firefox. when I
+> attempted to select 'Report This Site as Phishing" from the dropdown,
+>  a new window opens. The new window contains a perl script. A snippet
+> of the contents is below. Is this normal?  I will RTFM to be certain,
+> but I figured it was important enough to send to the list w/ greater
+> than normal haste.
+
+Hi,
+
+The project is not PhishTank, it's the Open Phishing Database. What you 
+reported is not normal, and seems to be a problem with server settings at 
+BerliOS. Thanks for letting us know. However, I would recommend that you do 
+use PhishTank if possible and not OPDB, since the former is actively 
+maintained and much more comprehensive, and would provide you with safer 
+browsing. I'm afraid OPDB has not gained the momentum that we hoped in the 
+last year and half, so I would suggest for now using alternatives.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+

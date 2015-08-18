@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [opdb-core-devel] XML: The right format?
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/opdb-core-devel/2006-April/index.html" >
+   <LINK REL="made" HREF="mailto:opdb-core-devel%40lists.berlios.de?Subject=Re%3A%20%5Bopdb-core-devel%5D%20XML%3A%20The%20right%20format%3F&In-Reply-To=%3C200604132040.22025.livne%40kde.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000018.html">
+   <LINK REL="Next"  HREF="000021.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[opdb-core-devel] XML: The right format?</H1>
+    <B>Meni Livne</B> 
+    <A HREF="mailto:opdb-core-devel%40lists.berlios.de?Subject=Re%3A%20%5Bopdb-core-devel%5D%20XML%3A%20The%20right%20format%3F&In-Reply-To=%3C200604132040.22025.livne%40kde.org%3E"
+       TITLE="[opdb-core-devel] XML: The right format?">livne at kde.org
+       </A><BR>
+    <I>Thu Apr 13 19:40:21 CEST 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000018.html">[opdb-core-devel] XML: The right format?
+</A></li>
+        <LI>Next message: <A HREF="000021.html">[opdb-core-devel] XML: The right format?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#19">[ date ]</a>
+              <a href="thread.html#19">[ thread ]</a>
+              <a href="subject.html#19">[ subject ]</a>
+              <a href="author.html#19">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello,
+
+Thank you for your feedback.
+
+First, just a short explanation about the server side of OPDB.
+We use a MySQL server on BerliOS, and query scripts through which the browser 
+extensions can send queries in Online mode. Then there's the option (actually 
+it's default) to download the sites list as an XML file. Then the client 
+queries the XML file instead.
+
+This XML file is generated statically when we make changes to the site list. 
+It is not dynamically generated each time someone wants to download it.
+
+Now as to the various issues you brought up...
+
+On Thursday April 13 2006 20:01, Pierre-Hugues HUSSON wrote:
+&gt;<i> Hi,
+</I>&gt;<i>
+</I>&gt;<i> I found opdb (especially Konqueror Anti-Phishing Toolbar) on freshmeat, and
+</I>&gt;<i> i liked it, as it was the first I found (actually i never searched) which
+</I>&gt;<i> has a konqueror plugin, so i wanted to try it, It simply works for
+</I>&gt;<i> detecting country, and samples work for detecting fishing sites.
+</I>
+It is the first and only anti-phishing solution for Konqueror for now, hence 
+it can be called &quot;Konqueror Anti-Phishing Toolbar&quot;. I'm glad you liked it :)
+
+&gt;<i> So i wanted to look a bit more, firstly the database format and i saw....
+</I>&gt;<i> An xml file!
+</I>&gt;<i> For the moment there are only 3 entries, so it's pretty little so it
+</I>&gt;<i> doesn't take time to parse or to download, but you may get thousands
+</I>&gt;<i> (million?) entries, so it will quickly become a nightmare to parse:I tried
+</I>&gt;<i> to make a 10MB database and it took 10s for each time, even if there was
+</I>&gt;<i> &quot;many&quot; requests to do, it's still too much for this application (if it was
+</I>&gt;<i> 2s with blocking events and not cpu taking why not, but it's mainly cpu and
+</I>&gt;<i> mem usage...).
+</I>
+When we reach a larger number of entries, we would probably already have used 
+libbz2 to compress the XML file, so the download time would be reduced.
+But as to the performance issue you're mentioning...
+
+&gt;<i> The alternative i use against XML is sqlite,it's less flexible than XML,
+</I>&gt;<i> but for the opdb, i don't think there is any flexibility needed.
+</I>&gt;<i> A rightly built sqlite DB (with right indexes), is pretty quick compared to
+</I>&gt;<i> XML (maximum 1s for same requests)
+</I>
+This is interesting... Though I have never used sqlite. I'd guess that since 
+it's a database it's definitely faster than parsing an XML file... But we 
+need to bring the site list from the server to the user. How do we do that? 
+Right now we just have an XML file and we parse it directly. If you say we 
+should avoid XML files, how would the client download the whole site list and 
+update the local database?
+
+&gt;<i> I have another notice to make about this project, but it will be later :)
+</I>
+I'm definitely interested in hearing this.
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000018.html">[opdb-core-devel] XML: The right format?
+</A></li>
+	<LI>Next message: <A HREF="000021.html">[opdb-core-devel] XML: The right format?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#19">[ date ]</a>
+              <a href="thread.html#19">[ thread ]</a>
+              <a href="subject.html#19">[ subject ]</a>
+              <a href="author.html#19">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/opdb-core-devel">More information about the opdb-core-devel
+mailing list</a><br>
+</body></html>

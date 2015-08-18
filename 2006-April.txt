@@ -1,0 +1,1368 @@
+From boazanin at gmail.com  Sat Apr  8 19:14:50 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Sat, 8 Apr 2006 20:14:50 +0300
+Subject: [opdb-core-devel] test
+Message-ID: <710408490604081014l52ccfed8hed7fb0b8c5299c09@mail.gmail.com>
+
+testing. If you got it, do reply..
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060408/21b79b8a/attachment.html>
+
+From boazanin at gmail.com  Wed Apr 12 11:09:55 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Wed, 12 Apr 2006 12:09:55 +0300
+Subject: [opdb-core-devel] Fwd: Anti-Phish toolbar--Beta Tester
+In-Reply-To: <20060412051429.78553.qmail@web53505.mail.yahoo.com>
+References: <20060412051429.78553.qmail@web53505.mail.yahoo.com>
+Message-ID: <710408490604120209l17546f54j4156c668f6063175@mail.gmail.com>
+
+FYI
+
+---------- Forwarded message ----------
+From: Vozz <vozztastic at yahoo.com>
+Date: Apr 12, 2006 8:14 AM
+Subject: Anti-Phish toolbar--Beta Tester
+To: boazanin at gmail.com
+
+I'd like to offer my services as a beta tester and I
+would like to just test your bar for you because I
+want to support the community.
+
+Thanks.
+Vozz
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around
+http://mail.yahoo.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060412/f060adaa/attachment.html>
+
+From boazanin at gmail.com  Wed Apr 12 12:57:27 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Wed, 12 Apr 2006 13:57:27 +0300
+Subject: [opdb-core-devel] Fwd: Firephish
+In-Reply-To: <200604121241.22292.pg@futureware.at>
+References: <200604121241.22292.pg@futureware.at>
+Message-ID: <710408490604120357h29139431l667a33cba0400d6c@mail.gmail.com>
+
+Interesting.
+
+---------- Forwarded message ----------
+From: Philipp G?hring <pg at futureware.at>
+Date: Apr 12, 2006 1:41 PM
+Subject: Firephish
+To: boazanin at gmail.com
+
+Hi,
+
+Can you provide a non-plugin version of Firephish for Firefox?
+We are currently working on a security hardened variant of Firefox, which
+will
+not support plugins, and we would like to have Firephish included in it.
+
+Best regards,
+Philipp G?hring
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060412/b5de9d84/attachment.html>
+
+From livne at kde.org  Wed Apr 12 13:04:19 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 12 Apr 2006 14:04:19 +0300
+Subject: [opdb-core-devel] Fwd: Firephish
+In-Reply-To: <710408490604120357h29139431l667a33cba0400d6c@mail.gmail.com>
+References: <200604121241.22292.pg@futureware.at> <710408490604120357h29139431l667a33cba0400d6c@mail.gmail.com>
+Message-ID: <200604121404.19957.livne@kde.org>
+
+On Wednesday April 12 2006 13:57, Boaz Anin wrote:
+> Interesting.
+
+"A non-plugin version". I assume he means a version that doesn't use XPCOM. 
+But then it can't use libphish, and we didn't want to do that in the first 
+place.
+
+So I say you can tell him that we currently don't have plans because of 
+libphish, however contributions are welcome. Maybe we can recommend to him 
+SmokedSalmon?
+
+
+--
+Meni Livne
+
+
+>
+> ---------- Forwarded message ----------
+> From: Philipp G?hring <pg at futureware.at>
+> Date: Apr 12, 2006 1:41 PM
+> Subject: Firephish
+> To: boazanin at gmail.com
+>
+> Hi,
+>
+> Can you provide a non-plugin version of Firephish for Firefox?
+> We are currently working on a security hardened variant of Firefox, which
+> will
+> not support plugins, and we would like to have Firephish included in it.
+>
+> Best regards,
+> Philipp G?hring
+
+
+From boazanin at gmail.com  Wed Apr 12 15:27:28 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Wed, 12 Apr 2006 16:27:28 +0300
+Subject: [opdb-core-devel] Fwd: A small question regarding the Open Phishing Database
+In-Reply-To: <1baa801f0604120626p3c688c41y506783e2e973826f@mail.gmail.com>
+References: <1baa801f0604120626p3c688c41y506783e2e973826f@mail.gmail.com>
+Message-ID: <710408490604120627qbdc94f4r324af32d74cff383@mail.gmail.com>
+
+Let's reply to him...
+
+---------- Forwarded message ----------
+From: Alexandre Dulaunoy <adulau at gmail.com>
+Date: Apr 12, 2006 4:26 PM
+Subject: A small question regarding the Open Phishing Database
+To: boazanin at gmail.com
+
+Dear,
+
+I saw the Open Phishing Database project on Berlios and I was
+wondering where is the
+database located ? how the protocol is working to lookup url in the database
+?
+
+Thanks a lot for any feedback,
+
+Best regards,
+
+adulau
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060412/b6bf1c52/attachment.html>
+
+From boazanin at gmail.com  Thu Apr 13 00:40:03 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 01:40:03 +0300
+Subject: [opdb-core-devel] Re: Anti-Phish toolbar--Beta Tester
+In-Reply-To: <20060412051429.78553.qmail@web53505.mail.yahoo.com>
+References: <20060412051429.78553.qmail@web53505.mail.yahoo.com>
+Message-ID: <710408490604121540q3f15b62k3f1b131bc12d1b5e@mail.gmail.com>
+
+Hi,
+Thank you for expressing interest in the Open Phishing Database project.
+Our beta (and alpha, and bleeding edge) versions are always available to
+everybody. We release early and often, and you can even get everything
+through SVN if you can't wait for a release.
+So being an official 'beta tester' is not necessary for the project.
+
+Regards,
+Boaz.
+
+On 4/12/06, Vozz <vozztastic at yahoo.com> wrote:
+>
+> I'd like to offer my services as a beta tester and I
+> would like to just test your bar for you because I
+> want to support the community.
+>
+> Thanks.
+> Vozz
+>
+>
+>
+> __________________________________________________
+> Do You Yahoo!?
+> Tired of spam?  Yahoo! Mail has the best spam protection around
+> http://mail.yahoo.com
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/40a3d000/attachment.html>
+
+From boazanin at gmail.com  Thu Apr 13 00:51:36 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 01:51:36 +0300
+Subject: [opdb-core-devel] Re: Firephish
+In-Reply-To: <200604121241.22292.pg@futureware.at>
+References: <200604121241.22292.pg@futureware.at>
+Message-ID: <710408490604121551t6a8b69bi4bdca8aba66657ef@mail.gmail.com>
+
+Hi,
+Thanks for expressing your interest in FirePhish and the Open Phishing
+Database project.
+We currently don't have any plans for an non-plugin version of FirePhish,
+which (statically) uses the
+libphish<http://prdownload.berlios.de/opdb/libphish-0.1.0.tar.bz2>
+anti-phishing
+core library to interact with the database and manage the user's safe list.
+The Konqueror Anti-Phishing Toolbar also uses this multi-platform core
+library.
+
+However, contributions to the project are welcome, especially if you can
+write a pure JavaScript extension that uses the OPDB directly.
+
+Regards,
+Boaz Anin.
+
+On 4/12/06, Philipp G?hring <pg at futureware.at> wrote:
+>
+> Hi,
+>
+> Can you provide a non-plugin version of Firephish for Firefox?
+> We are currently working on a security hardened variant of Firefox, which
+> will
+> not support plugins, and we would like to have Firephish included in it.
+>
+> Best regards,
+> Philipp G?hring
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/31f95192/attachment.html>
+
+From boazanin at gmail.com  Thu Apr 13 01:02:04 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 02:02:04 +0300
+Subject: [opdb-core-devel] Re: A small question regarding the Open Phishing Database
+In-Reply-To: <1baa801f0604120626p3c688c41y506783e2e973826f@mail.gmail.com>
+References: <1baa801f0604120626p3c688c41y506783e2e973826f@mail.gmail.com>
+Message-ID: <710408490604121602j6f5f336ar2596e2a1d9b6fe99@mail.gmail.com>
+
+Hello,
+Thanks for expressing your interest in the Open Phishing Database project.
+The database is currently located and maintained on our hosting server
+(Berlios).
+
+Every URL (and its IP address) are checked against a list of URLs and IPs on
+the DB which were reported by users like yourself and reviewed by our
+administrators.
+
+Some more details are available on
+http://opdb.berlios.de/doc/firephish-manual.html .
+
+Sincerely,
+Boaz.
+
+
+On 4/12/06, Alexandre Dulaunoy <adulau at gmail.com> wrote:
+>
+> Dear,
+>
+> I saw the Open Phishing Database project on Berlios and I was
+> wondering where is the
+> database located ? how the protocol is working to lookup url in the
+> database ?
+>
+> Thanks a lot for any feedback,
+>
+> Best regards,
+>
+> adulau
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/a1272335/attachment.html>
+
+From livne at kde.org  Thu Apr 13 14:45:47 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 15:45:47 +0300
+Subject: [opdb-core-devel] Re: OPDB
+In-Reply-To: <443E1080.4070402@exa-networks.co.uk>
+References: <443E1080.4070402@exa-networks.co.uk>
+Message-ID: <200604131545.47680.livne@kde.org>
+
+Hi Thomas,
+
+On Thursday April 13 2006 11:49, Thomas Mangin wrote:
+> Hello,
+>
+> Sorry to contact you out of the blue but I am interested in your open
+> phishing DB project.
+>
+> I have look at the source and see how the client library is intended to
+> work and the code look "sane" to me (I have no idea on how you
+> implemented the server side code tho).
+>
+> I would be interested to use this work in a product of ours (which is
+> not GPL however :( ) so I can not use your library as it and would most
+> likely call the URL "by hand".
+
+What is the nature of this product? Is it completely closed or is it just 
+non-GPL Free/Open Source? Is this something you're planning on selling?
+
+> I did not look at your code in detail but I guess it would look like :
+> http://dobravoda.livne.org/cgi-bin/query.pl?m=80&i=82.219.5.48&s=www.exa-ne
+>tworks.co.uk&p=%2F
+
+Those scripts we have used during development. It's not what the library uses 
+when used from browser extensions. Where did you find that URL?
+
+> As well this project is coded in python and not C for my work and would
+> like to know if your interface for the query URL would be stable for
+> some time.
+>
+> I would have no issue to write a python version of the library if you
+> are interested.
+
+That would be very nice and greatly appreciated.
+
+> As well, I am in a position to help the project should you need some
+> hosting and BW should you think it would help.
+
+Thank you for the offer. Currently we have hosting, but if a need may arise in 
+the future, I'll let you know.
+
+I can provide with more information about the query scripts, including the 
+sources, but I was just wondering about that product... I'd be glad if you 
+can provide me with a bit more information...
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+
+
+From boazanin at gmail.com  Thu Apr 13 16:29:51 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 17:29:51 +0300
+Subject: [opdb-core-devel] Just added two more user-reported phishing sites to the DB
+Message-ID: <710408490604130729t70029ca9yb5fd39c2fa660161@mail.gmail.com>
+
+http://202.179.154.35/logon/logon.php?dd=1 is a nasty one!
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/58f3dae4/attachment.html>
+
+From livne at kde.org  Thu Apr 13 16:34:31 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 17:34:31 +0300
+Subject: [opdb-core-devel] Fwd: Re: OPDB
+Message-ID: <200604131734.31081.livne@kde.org>
+
+What do you think about this?
+
+----------  Forwarded Message  ----------
+
+Subject: Re: OPDB
+Date: Thursday April 13 2006 16:59
+From: Thomas Mangin <thomas.mangin at exa-networks.co.uk>
+To: Meni Livne <livne at kde.org>
+
+Meni Livne wrote:
+> What is the nature of this product? Is it completely closed or is it just
+> non-GPL Free/Open Source? Is this something you're planning on selling?
+
+It is a web content filtering software/cluster used by our customers. They
+ can then select the type of site they want to allow or not for their
+ connection.
+
+As this is something which gives us an advantage to sell DSL over our direct
+ UK competitor, I am not really keen to open it as GPL right now.
+
+> Those scripts we have used during development. It's not what the library
+> uses when used from browser extensions. Where did you find that URL?
+
+from the src/tests/config.txt file.
+
+ >> I would have no issue to write a python version of the library if you
+ >> are interested.
+>
+> That would be very nice and greatly appreciated.
+
+Then it is likely to happen.
+
+> Thank you for the offer. Currently we have hosting, but if a need may arise
+> in the future, I'll let you know.
+
+The offer is here to stay, as I would like to host a copy of your DB for
+performance reason (if you are looking at mirrors).
+
+> I can provide with more information about the query scripts, including the
+> sources, but I was just wondering about that product... I'd be glad if you
+> can provide me with a bit more information...
+
+I would appreciate it would make my live much easier.
+
+We are intercepting packet for destination port 80 at the end of our DSL pipe
+(the UK have a number of law project to force ISPs to protect their customer
+from "unlawful" content - welcome to 1984 ..)
+
+Those packet are source and destination natted to a squid farm. Each squid
+ proxy have a url rewriter which will query (passing though some cache) a
+ postgresql DB, depending on the answer (allowed, deny, not classified yet) a
+ page is served.
+
+The classification it use a combination of pattern matching (similar to Dan's
+guardian) and bayesian on url, html, text of html, meta content, plus a few
+trick for search engine, etc.nat
+
+If you want to look at a similar GPL soft you can look at "POESIA" but IMHO
+ it is over engineered and not stable enough.
+
+Thomas
+--
+Exa Networks Limited - UK - AS30740 - www.exa-networks.co.uk
+nic-handle : MANG-RIPE   website  : thomas.mangin.me.uk
+GPG key ID : 0xFB8B81A1  PGP key  : /pgp.html
+Inoc-DBA # : 30740*TOM   Office # : +44 (0) 845 145 1234
+
+http://www.ispaawards.org.uk/categories/broadl_business.htm
+http://www.ispaawards.org.uk/categories/BestBusiness.htm
+
+-------------------------------------------------------
+
+
+From livne at kde.org  Thu Apr 13 16:36:10 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 17:36:10 +0300
+Subject: [opdb-core-devel] Just added two more user-reported phishing sites to the DB
+In-Reply-To: <710408490604130729t70029ca9yb5fd39c2fa660161@mail.gmail.com>
+References: <710408490604130729t70029ca9yb5fd39c2fa660161@mail.gmail.com>
+Message-ID: <200604131736.10322.livne@kde.org>
+
+On Thursday April 13 2006 17:29, Boaz Anin wrote:
+> http://202.179.154.35/logon/logon.php?dd=1 is a nasty one!
+
+Wow, all the way from Pakistan.
+They are very bad. Very very bad.
+:)
+
+
+--
+Meni
+
+
+
+From boazanin at gmail.com  Thu Apr 13 16:39:43 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 17:39:43 +0300
+Subject: [opdb-core-devel] Fwd: Re: OPDB
+In-Reply-To: <200604131734.31081.livne@kde.org>
+References: <200604131734.31081.livne@kde.org>
+Message-ID: <710408490604130739q5cdd46d0g1f99d40fe8d2dfe6@mail.gmail.com>
+
+Seems like a serious bloke, I think we can cooperate with him, i.e. let his
+software use the OPDB, and more importantly - let his users report phisy
+sites!
+
+On 4/13/06, Meni Livne <livne at kde.org> wrote:
+>
+> What do you think about this?
+>
+> ----------  Forwarded Message  ----------
+>
+> Subject: Re: OPDB
+> Date: Thursday April 13 2006 16:59
+> From: Thomas Mangin <thomas.mangin at exa-networks.co.uk>
+> To: Meni Livne <livne at kde.org>
+>
+> Meni Livne wrote:
+> > What is the nature of this product? Is it completely closed or is it
+> just
+> > non-GPL Free/Open Source? Is this something you're planning on selling?
+>
+> It is a web content filtering software/cluster used by our customers. They
+> can then select the type of site they want to allow or not for their
+> connection.
+>
+> As this is something which gives us an advantage to sell DSL over our
+> direct
+> UK competitor, I am not really keen to open it as GPL right now.
+>
+> > Those scripts we have used during development. It's not what the library
+> > uses when used from browser extensions. Where did you find that URL?
+>
+> from the src/tests/config.txt file.
+>
+> >> I would have no issue to write a python version of the library if you
+> >> are interested.
+> >
+> > That would be very nice and greatly appreciated.
+>
+> Then it is likely to happen.
+>
+> > Thank you for the offer. Currently we have hosting, but if a need may
+> arise
+> > in the future, I'll let you know.
+>
+> The offer is here to stay, as I would like to host a copy of your DB for
+> performance reason (if you are looking at mirrors).
+>
+> > I can provide with more information about the query scripts, including
+> the
+> > sources, but I was just wondering about that product... I'd be glad if
+> you
+> > can provide me with a bit more information...
+>
+> I would appreciate it would make my live much easier.
+>
+> We are intercepting packet for destination port 80 at the end of our DSL
+> pipe
+> (the UK have a number of law project to force ISPs to protect their
+> customer
+> from "unlawful" content - welcome to 1984 ..)
+>
+> Those packet are source and destination natted to a squid farm. Each squid
+> proxy have a url rewriter which will query (passing though some cache) a
+> postgresql DB, depending on the answer (allowed, deny, not classified yet)
+> a
+> page is served.
+>
+> The classification it use a combination of pattern matching (similar to
+> Dan's
+> guardian) and bayesian on url, html, text of html, meta content, plus a
+> few
+> trick for search engine, etc.nat
+>
+> If you want to look at a similar GPL soft you can look at "POESIA" but
+> IMHO
+> it is over engineered and not stable enough.
+>
+> Thomas
+> --
+> Exa Networks Limited - UK - AS30740 - www.exa-networks.co.uk
+> nic-handle : MANG-RIPE   website  : thomas.mangin.me.uk
+> GPG key ID : 0xFB8B81A1  PGP key  : /pgp.html
+> Inoc-DBA # : 30740*TOM   Office # : +44 (0) 845 145 1234
+>
+> http://www.ispaawards.org.uk/categories/broadl_business.htm
+> http://www.ispaawards.org.uk/categories/BestBusiness.htm
+>
+> -------------------------------------------------------
+> _______________________________________________
+> opdb-core-devel mailing list
+> opdb-core-devel at berlios.de
+> http://lists.berlios.de/mailman/listinfo/opdb-core-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/36886b8c/attachment.html>
+
+From livne at kde.org  Thu Apr 13 16:46:14 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 17:46:14 +0300
+Subject: [opdb-core-devel] Fwd: Re: OPDB
+In-Reply-To: <710408490604130739q5cdd46d0g1f99d40fe8d2dfe6@mail.gmail.com>
+References: <200604131734.31081.livne@kde.org> <710408490604130739q5cdd46d0g1f99d40fe8d2dfe6@mail.gmail.com>
+Message-ID: <200604131746.14696.livne@kde.org>
+
+On Thursday April 13 2006 17:39, Boaz Anin wrote:
+> Seems like a serious bloke, I think we can cooperate with him, i.e. let his
+> software use the OPDB, and more importantly - let his users report phisy
+> sites!
+
+Indeed. I saw on his website that his a good guy.
+And the fact that he offers a mirror is good. And if he's going to write a 
+Python interface to OPDB, that may be very good too.
+
+
+--
+Meni
+
+
+
+From boazanin at gmail.com  Thu Apr 13 16:59:25 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 17:59:25 +0300
+Subject: [opdb-core-devel] antiphishing.org ?
+Message-ID: <710408490604130759g4248493ckfba836a806d6cb74@mail.gmail.com>
+
+What do you say about trying to be listed in the APWG webpage?
+
+http://www.antiphishing.org/solutions.html
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/b6ac820a/attachment.html>
+
+From boazanin at gmail.com  Thu Apr 13 17:00:47 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 18:00:47 +0300
+Subject: [opdb-core-devel] Re: antiphishing.org ?
+In-Reply-To: <710408490604130759g4248493ckfba836a806d6cb74@mail.gmail.com>
+References: <710408490604130759g4248493ckfba836a806d6cb74@mail.gmail.com>
+Message-ID: <710408490604130800p3bfc0959ia8a3e3246b3265af@mail.gmail.com>
+
+Check this out:
+
+*APWG Membership Eligibility * Membership is open to qualified financial
+institutions, online retailers, ISPs, the law enforcement community, security
+solutions providers and research institutions. Note that because phishing
+attacks and email fraud are sensitive subjects for many organizations that
+do business online, the APWG has a policy of maintaining the confidentiality
+of member organizations.
+
+http://www.antiphishing.org/membership.html
+
+On 4/13/06, Boaz Anin <boazanin at gmail.com> wrote:
+>
+> What do you say about trying to be listed in the APWG webpage?
+>
+> http://www.antiphishing.org/solutions.html
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/a7e3db76/attachment.html>
+
+From livne at kde.org  Thu Apr 13 17:10:40 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 18:10:40 +0300
+Subject: [opdb-core-devel] Re: antiphishing.org ?
+In-Reply-To: <710408490604130800p3bfc0959ia8a3e3246b3265af@mail.gmail.com>
+References: <710408490604130759g4248493ckfba836a806d6cb74@mail.gmail.com> <710408490604130800p3bfc0959ia8a3e3246b3265af@mail.gmail.com>
+Message-ID: <200604131810.40249.livne@kde.org>
+
+On Thursday April 13 2006 18:00, Boaz Anin wrote:
+> Check this out:
+>
+> *APWG Membership Eligibility * Membership is open to qualified financial
+> institutions, online retailers, ISPs, the law enforcement community,
+> security solutions providers and research institutions. Note that because
+> phishing attacks and email fraud are sensitive subjects for many
+> organizations that do business online, the APWG has a policy of maintaining
+> the confidentiality of member organizations.
+>
+> http://www.antiphishing.org/membership.html
+
+And what will be the advantages? You want to become a member? It doesn't seem 
+realistic to me.
+
+> > What do you say about trying to be listed in the APWG webpage?
+> >
+> > http://www.antiphishing.org/solutions.html
+
+They are all companies there. I doubt they'll list us there. What phone number 
+are you going to give?
+
+This whole working group thing seems like corporate nonsense.
+
+
+--
+Meni
+
+
+
+From livne at kde.org  Thu Apr 13 17:44:06 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 18:44:06 +0300
+Subject: [opdb-core-devel] Re: OPDB
+In-Reply-To: <443E592A.2070001@exa-networks.co.uk>
+References: <443E1080.4070402@exa-networks.co.uk> <200604131545.47680.livne@kde.org> <443E592A.2070001@exa-networks.co.uk>
+Message-ID: <200604131844.06962.livne@kde.org>
+
+On Thursday April 13 2006 16:59, you wrote:
+> It is a web content filtering software/cluster used by our customers. They
+> can then select the type of site they want to allow or not for their
+> connection.
+>
+> As this is something which gives us an advantage to sell DSL over our
+> direct UK competitor, I am not really keen to open it as GPL right now.
+
+I see. O.K. Then as far as we are concerned we don't have a problem with you 
+writing your scripts or programs that query our database. I've attached the 
+source of the scripts to this message so they may give you hints about how to 
+use them for queries.
+The scripts are located online at these locations:
+http://opdb.berlios.de/cgi-bin/query.pl - Full site query
+http://opdb.berlios.de/cgi-bin/country.pl - For finding out only a site's 
+country
+http://opdb.berlios.de/cgi-bin/report.pl - For reporting a site as phishing
+
+In addition there's the database as an XML file, for the "Offline" mode which 
+used as default in the browser extensions:
+http://opdb.berlios.de/opdbsites.xml
+
+>  >> I would have no issue to write a python version of the library if you
+>  >> are interested.
+> >
+> > That would be very nice and greatly appreciated.
+>
+> Then it is likely to happen.
+
+Great.
+
+> > Thank you for the offer. Currently we have hosting, but if a need may
+> > arise in the future, I'll let you know.
+>
+> The offer is here to stay, as I would like to host a copy of your DB for
+> performance reason (if you are looking at mirrors).
+
+O.K. We thought that we may need mirrors in the future, but this is just the 
+initial release of everything... However you can host a copy of our DB if you 
+want. I'm just not sure how such mirroring is done...
+
+
+Feel free to contact me if you have any questions.
+
+
+Regards.
+
+
+--
+Meni Livne
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: country.pl
+Type: application/x-perl
+Size: 1244 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/f167629b/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: report.pl
+Type: application/x-perl
+Size: 3681 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/f167629b/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: query.pl
+Type: application/x-perl
+Size: 3912 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/f167629b/attachment-0002.bin>
+
+From phhusson at free.fr  Thu Apr 13 19:01:29 2006
+From: phhusson at free.fr (Pierre-Hugues HUSSON)
+Date: Thu, 13 Apr 2006 19:01:29 +0200
+Subject: [opdb-core-devel] XML: The right format?
+Message-ID: <200604131901.40650.phhusson@free.fr>
+
+Hi,
+
+I found opdb (especially Konqueror Anti-Phishing Toolbar) on freshmeat, and i 
+liked it, as it was the first I found (actually i never searched) which has a 
+konqueror plugin, so i wanted to try it, It simply works for detecting 
+country, and samples work for detecting fishing sites.
+So i wanted to look a bit more, firstly the database format and i saw....
+An xml file!
+For the moment there are only 3 entries, so it's pretty little so it doesn't 
+take time to parse or to download, but you may get thousands (million?) 
+entries, so it will quickly become a nightmare to parse:I tried to make a 
+10MB database and it took 10s for each time, even if there was "many" 
+requests to do, it's still too much for this application (if it was 2s with 
+blocking events and not cpu taking why not, but it's mainly cpu and mem 
+usage...).
+The alternative i use against XML is sqlite,it's less flexible than XML, but 
+for the opdb, i don't think there is any flexibility needed.
+A rightly built sqlite DB (with right indexes), is pretty quick compared to 
+XML (maximum 1s for same requests)
+
+I have another notice to make about this project, but it will be later :)
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 190 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/276b45b5/attachment.pgp>
+
+From livne at kde.org  Thu Apr 13 19:40:21 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 20:40:21 +0300
+Subject: [opdb-core-devel] XML: The right format?
+In-Reply-To: <200604131901.40650.phhusson@free.fr>
+References: <200604131901.40650.phhusson@free.fr>
+Message-ID: <200604132040.22025.livne@kde.org>
+
+Hello,
+
+Thank you for your feedback.
+
+First, just a short explanation about the server side of OPDB.
+We use a MySQL server on BerliOS, and query scripts through which the browser 
+extensions can send queries in Online mode. Then there's the option (actually 
+it's default) to download the sites list as an XML file. Then the client 
+queries the XML file instead.
+
+This XML file is generated statically when we make changes to the site list. 
+It is not dynamically generated each time someone wants to download it.
+
+Now as to the various issues you brought up...
+
+On Thursday April 13 2006 20:01, Pierre-Hugues HUSSON wrote:
+> Hi,
+>
+> I found opdb (especially Konqueror Anti-Phishing Toolbar) on freshmeat, and
+> i liked it, as it was the first I found (actually i never searched) which
+> has a konqueror plugin, so i wanted to try it, It simply works for
+> detecting country, and samples work for detecting fishing sites.
+
+It is the first and only anti-phishing solution for Konqueror for now, hence 
+it can be called "Konqueror Anti-Phishing Toolbar". I'm glad you liked it :)
+
+> So i wanted to look a bit more, firstly the database format and i saw....
+> An xml file!
+> For the moment there are only 3 entries, so it's pretty little so it
+> doesn't take time to parse or to download, but you may get thousands
+> (million?) entries, so it will quickly become a nightmare to parse:I tried
+> to make a 10MB database and it took 10s for each time, even if there was
+> "many" requests to do, it's still too much for this application (if it was
+> 2s with blocking events and not cpu taking why not, but it's mainly cpu and
+> mem usage...).
+
+When we reach a larger number of entries, we would probably already have used 
+libbz2 to compress the XML file, so the download time would be reduced.
+But as to the performance issue you're mentioning...
+
+> The alternative i use against XML is sqlite,it's less flexible than XML,
+> but for the opdb, i don't think there is any flexibility needed.
+> A rightly built sqlite DB (with right indexes), is pretty quick compared to
+> XML (maximum 1s for same requests)
+
+This is interesting... Though I have never used sqlite. I'd guess that since 
+it's a database it's definitely faster than parsing an XML file... But we 
+need to bring the site list from the server to the user. How do we do that? 
+Right now we just have an XML file and we parse it directly. If you say we 
+should avoid XML files, how would the client download the whole site list and 
+update the local database?
+
+> I have another notice to make about this project, but it will be later :)
+
+I'm definitely interested in hearing this.
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+
+From boazanin at gmail.com  Thu Apr 13 19:55:02 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 13 Apr 2006 20:55:02 +0300
+Subject: [opdb-core-devel] XML: The right format?
+In-Reply-To: <200604131901.40650.phhusson@free.fr>
+References: <200604131901.40650.phhusson@free.fr>
+Message-ID: <710408490604131055u61a7ab19x4c692847de43f83b@mail.gmail.com>
+
+Cher Pierre,
+
+Thanks once again for expressing your interest in the OPDB project.
+
+I just wanted to add that the DB is maintained so that only the active phishy
+sites are listed.
+Alors, at no point should we reach a situation in which there are more than
+a few hundred sites listed (at most)...
+
+Boaz.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/35daa578/attachment.html>
+
+From phhusson at free.fr  Thu Apr 13 20:04:54 2006
+From: phhusson at free.fr (Pierre-Hugues HUSSON)
+Date: Thu, 13 Apr 2006 20:04:54 +0200
+Subject: [opdb-core-devel] XML: The right format?
+In-Reply-To: <200604132040.22025.livne@kde.org>
+References: <200604131901.40650.phhusson@free.fr> <200604132040.22025.livne@kde.org>
+Message-ID: <200604132005.08481.phhusson@free.fr>
+
+On Thurday April 13 2006 20:01, Meni Livne wrote:
+> Hello,
+>
+> Thank you for your feedback.
+For nice projects :)
+> First, just a short explanation about the server side of OPDB.
+> We use a MySQL server on BerliOS, and query scripts through which the
+> browser extensions can send queries in Online mode. Then there's the option
+> (actually it's default) to download the sites list as an XML file. Then the
+> client queries the XML file instead.
+Ah didn't now that, but using a server part will risk to make berlios down if 
+there are too many users :) (actually i use online mode)
+
+> > So i wanted to look a bit more, firstly the database format and i saw....
+> > An xml file!
+> > For the moment there are only 3 entries, so it's pretty little so it
+> > doesn't take time to parse or to download, but you may get thousands
+> > (million?) entries, so it will quickly become a nightmare to parse:I
+> > tried to make a 10MB database and it took 10s for each time, even if
+> > there was "many" requests to do, it's still too much for this application
+> > (if it was 2s with blocking events and not cpu taking why not, but it's
+> > mainly cpu and mem usage...).
+>
+> When we reach a larger number of entries, we would probably already have
+> used libbz2 to compress the XML file, so the download time would be
+> reduced. But as to the performance issue you're mentioning...
+You may try to make a big database with "random" values, maybe it's quicker 
+with SAX than with the DOM tree I used, but i think it will still take too 
+many ressources for that
+
+> > The alternative i use against XML is sqlite,it's less flexible than XML,
+> > but for the opdb, i don't think there is any flexibility needed.
+> > A rightly built sqlite DB (with right indexes), is pretty quick compared
+> > to XML (maximum 1s for same requests)
+>
+> This is interesting... Though I have never used sqlite. I'd guess that
+> since it's a database it's definitely faster than parsing an XML file...
+> But we need to bring the site list from the server to the user. How do we
+> do that? Right now we just have an XML file and we parse it directly. If
+> you say we should avoid XML files, how would the client download the whole
+> site list and update the local database?
+Didn't thaught at this, but I can propose some ideas for that:
+-Take the binary format of the db as generated by sqlite (i don't really like 
+that but it can work)
+-An alternative of that: take the xdelta and each day/hour (or what else) 
+generate the delta to make it lighter to download
+-Download the "dumped" version (the SQL queries so)
+-An alternate: Only download "dumped" differences between the last 
+hour/day/whatelse
+
+Notice that i propose sqlite, because I know it "well" (I know how to use the 
+C API at least), but there may be other solutions which will works well too, 
+if they can give enough performances (and aren't too hard to code...)
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 190 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/c4e7ae54/attachment.pgp>
+
+From livne at kde.org  Thu Apr 13 20:23:32 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 13 Apr 2006 21:23:32 +0300
+Subject: [opdb-core-devel] XML: The right format?
+In-Reply-To: <200604132005.08481.phhusson@free.fr>
+References: <200604131901.40650.phhusson@free.fr> <200604132040.22025.livne@kde.org> <200604132005.08481.phhusson@free.fr>
+Message-ID: <200604132123.32829.livne@kde.org>
+
+On Thursday April 13 2006 21:04, Pierre-Hugues HUSSON wrote:
+> Ah didn't now that, but using a server part will risk to make berlios down
+> if there are too many users :) (actually i use online mode)
+
+True, and that's why in the future we may need to think about mirrors...
+
+> Didn't thaught at this, but I can propose some ideas for that:
+> -Take the binary format of the db as generated by sqlite (i don't really
+> like that but it can work)
+> -An alternative of that: take the xdelta and each day/hour (or what else)
+> generate the delta to make it lighter to download
+> -Download the "dumped" version (the SQL queries so)
+> -An alternate: Only download "dumped" differences between the last
+> hour/day/whatelse
+
+O.K. Then there are all kinds of things to consider. Perhaps in the future if 
+we see that parsing the XML file is too heavy, then we'll start looking into 
+other solutions. Right now the database if far from reaching such a stage, so 
+there's time to think these things through...
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+
+From phhusson at free.fr  Thu Apr 13 20:23:39 2006
+From: phhusson at free.fr (Pierre-Hugues HUSSON)
+Date: Thu, 13 Apr 2006 20:23:39 +0200
+Subject: [opdb-core-devel] XML: The right format?
+In-Reply-To: <710408490604131055u61a7ab19x4c692847de43f83b@mail.gmail.com>
+References: <200604131901.40650.phhusson@free.fr> <710408490604131055u61a7ab19x4c692847de43f83b@mail.gmail.com>
+Message-ID: <200604132023.41849.phhusson@free.fr>
+
+Le Jeudi 13 Avril 2006 19:55, Boaz Anin a ?crit?:
+> I just wanted to add that the DB is maintained so that only the active
+> phishy sites are listed.
+> Alors, at no point should we reach a situation in which there are more than
+> a few hundred sites listed (at most)...
+I don't know the situation of phishing, just that i often receive phishing 
+mails, 
+But I would think there are more than that phishy sites, and that it will take 
+some time to check a site is down or not(while it can only be overloaded) so 
+the list will become easily bigger, it will need to be checked in long time 
+to know which one is the right idea.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 190 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060413/a27559e7/attachment.pgp>
+
+From Mathias.Homann at eregion.de  Fri Apr 14 00:44:03 2006
+From: Mathias.Homann at eregion.de (Mathias Homann)
+Date: Fri, 14 Apr 2006 00:44:03 +0200
+Subject: [opdb-core-devel] konqueror toolbar... a suggestion.
+Message-ID: <200604140044.04820.Mathias.Homann@eregion.de>
+
+hi,
+
+
+why not use GeoIP instead of a connection to your database for getting 
+the country for a given ip address?
+
+geoip is found on http://www.maxmind.com/app/geoip_country
+
+The api even returns a 2letter code which matches the file names kde 
+uses for the country flags...
+
+
+bye,
+	MH
+
+-- 
+gpg key fingerprint: 5F64 4C92 9B77 DE37 D184  C5F9 B013 44E7 27BD 
+763C
+
+
+From livne at kde.org  Fri Apr 14 10:09:16 2006
+From: livne at kde.org (Meni Livne)
+Date: Fri, 14 Apr 2006 11:09:16 +0300
+Subject: [opdb-core-devel] konqueror toolbar... a suggestion.
+In-Reply-To: <200604140044.04820.Mathias.Homann@eregion.de>
+References: <200604140044.04820.Mathias.Homann@eregion.de>
+Message-ID: <200604141109.16702.livne@kde.org>
+
+On Friday April 14 2006 01:44, Mathias Homann wrote:
+> hi,
+>
+>
+> why not use GeoIP instead of a connection to your database for getting
+> the country for a given ip address?
+>
+> geoip is found on http://www.maxmind.com/app/geoip_country
+
+Hello,
+
+This is exactly what we use on the server side.
+However we can't use it on the client side since the license of the GeoIP 
+database doesn't let us distribute it with our GPL software.
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+
+From Mathias.Homann at eregion.de  Fri Apr 14 15:05:51 2006
+From: Mathias.Homann at eregion.de (Mathias Homann)
+Date: Fri, 14 Apr 2006 15:05:51 +0200
+Subject: [opdb-core-devel] konqueror toolbar... a suggestion.
+In-Reply-To: <200604141554.48183.livne@kde.org>
+References: <200604140044.04820.Mathias.Homann@eregion.de> <200604141554.48183.livne@kde.org>
+Message-ID: <200604141505.54093.Mathias.Homann@eregion.de>
+
+Am Freitag, 14. April 2006 14:54 schrieb Meni Livne:
+
+> > why not use GeoIP instead of a connection to your database for
+> > getting the country for a given ip address?
+
+> This is exactly what we use on the server side.
+> However we can't use it on the client side since the license of the
+> GeoIP database doesn't let us distribute it with our GPL software.
+
+
+but you could put geoip support in the toolbar, and point the user at 
+the geoip site to get the database...
+
+
+bye,
+MH
+
+
+From livne at kde.org  Fri Apr 14 15:10:42 2006
+From: livne at kde.org (Meni Livne)
+Date: Fri, 14 Apr 2006 16:10:42 +0300
+Subject: [opdb-core-devel] konqueror toolbar... a suggestion.
+In-Reply-To: <200604141505.54093.Mathias.Homann@eregion.de>
+References: <200604140044.04820.Mathias.Homann@eregion.de>
+ <200604141554.48183.livne@kde.org>
+ <200604141505.54093.Mathias.Homann@eregion.de>
+Message-ID: <200604141610.42553.livne@kde.org>
+
+On Friday April 14 2006 16:05, Mathias Homann wrote:
+> > This is exactly what we use on the server side.
+> > However we can't use it on the client side since the license of the
+> > GeoIP database doesn't let us distribute it with our GPL software.
+>
+> but you could put geoip support in the toolbar, and point the user at
+> the geoip site to get the database...
+
+Yes, so the user will download the database himself. That may be an option in 
+future versions...
+
+
+Regards.
+
+
+--
+Meni Livne
+
+
+
+From boazanin at gmail.com  Sun Apr 16 14:35:07 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Sun, 16 Apr 2006 15:35:07 +0300
+Subject: [opdb-core-devel] Fwd: [FirePhish Anti-Phishing Extension 0.1] Approval Granted
+In-Reply-To: <200604161232.k3GCWOfO022847@iguana.mozilla.org>
+References: <200604161232.k3GCWOfO022847@iguana.mozilla.org>
+Message-ID: <710408490604160535h2bf3b6aekbe222aaa67e843d9@mail.gmail.com>
+
+Finally!
+
+---------- Forwarded message ----------
+From: Mozilla Update <update-daemon at mozilla.org>
+Date: Apr 16, 2006 3:32 PM
+Subject: [FirePhish Anti-Phishing Extension 0.1] Approval Granted
+To: boazanin at gmail.com
+
+FirePhish Anti-Phishing Extension 0.1 - Approval Granted
+Your item, FirePhish Anti-Phishing Extension 0.1, has been reviewed by a
+Mozilla Update editor who took the following action:
+Approval Granted
+
+Please Note: It may take up to 30 minutes for your extension to be available
+for download.
+
+Your item was tested by Robert Marshall using Firefox 1.5.0.2 on Windows.
+----
+Mozilla Update: https://addons.mozilla.org/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060416/8b7cd81c/attachment.html>
+
+From livne at kde.org  Wed Apr 19 11:31:09 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 19 Apr 2006 12:31:09 +0300
+Subject: [opdb-core-devel] Fwd: error with DB
+Message-ID: <200604191231.09582.livne@kde.org>
+
+There seems to be trouble right now at BerliOS.
+The database isn't accessible in any way...
+
+----------  Forwarded Message  ----------
+
+Subject: error with DB
+Date: Wednesday April 19 2006 12:11
+From: Thomas Mangin <thomas.mangin at exa-networks.co.uk>
+To: Meni Livne <livne at kde.org>
+
+http://opdb.berlios.de/cgi-bin/report.pl?url=http%3A%2F%2Fwww.chasepersonalba
+nk.com%2Fcolappmgr%2Fcolportal%2Fprospect.php%3F_nfpb%3Dchange_form
+
+Error connecting to database: Can't connect to MySQL server on 'db' (146)
+
+--
+Exa Networks Limited - UK - AS30740 - www.exa-networks.co.uk
+nic-handle : MANG-RIPE   website  : thomas.mangin.me.uk
+GPG key ID : 0xFB8B81A1  PGP key  : /pgp.html
+Inoc-DBA # : 30740*TOM   Office # : +44 (0) 845 145 1234
+
+-------------------------------------------------------
+
+
+From livne at kde.org  Wed Apr 19 11:56:01 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 19 Apr 2006 12:56:01 +0300
+Subject: [opdb-core-devel] Fwd: Unfinished mail
+Message-ID: <200604191256.01516.livne@kde.org>
+
+Hi,
+
+I received a suggestion to add the "ASN" field to information returned about a 
+site. I guess it's a good idea since it is useful to ISPs... I never knew of 
+it... But what do you think? I guess we could incorporate it in the next 
+versions...
+
+
+----------  Forwarded Message  ----------
+
+Subject: Unfinished mail
+Date: Wednesday April 19 2006 12:07
+From: Thomas Mangin <thomas.mangin at exa-networks.co.uk>
+To: Meni Livne <livne at kde.org>
+
+Sorry my mail client decided to send my email before I had time to
+finish it (or I screwed up :p)
+
+I sent the following to the nsp-sec list and I hope they will be
+interrested. If you could add an optional ASN information to the DB it
+would surely make it more attractive to ISPs.
+
+To get the AS for my DSL IP for example just do:
+whois 82.219.212.20 | grep origin
+
+Thomas
+---
+
+Hello,
+
+I recently came across this new project, the open phishing database
+which attempt to list phishing site and provide plugins for web browser
+to protect the innocent, see http://opdb.berlios.de/
+
+They do not currently store the ASN of the phishing site in their DB but
+I am sure they would be willing to help and add it. ISP could then
+simply "pull" data from the DB whenever they want.
+
+The nsp-sec community could make this project more useful by simply
+using it.
+
+Thomas
+
+-------------------------------------------------------
+
+
+From livne at kde.org  Sun Apr 23 17:11:00 2006
+From: livne at kde.org (Meni Livne)
+Date: Sun, 23 Apr 2006 18:11:00 +0300
+Subject: [opdb-core-devel] Fwd: error with DB
+In-Reply-To: <200604191231.09582.livne@kde.org>
+References: <200604191231.09582.livne@kde.org>
+Message-ID: <200604231811.01684.livne@kde.org>
+
+On Wednesday April 19 2006 12:31, Meni Livne wrote:
+> There seems to be trouble right now at BerliOS.
+> The database isn't accessible in any way...
+
+Finally it seems that BerliOS's database server is back up. This was 
+definitely an unfortunate situation. Such a long downtime on their behalf 
+without any word from them... And just a week after our initial launch (could 
+it be our fault? :)
+
+Now we might want to think about how to avoid such a serious problem in the 
+future. Mirrors seems the easiest solution I can think of. But that requires 
+reliable hosts that would agree to mirror the database.
+
+Any ideas on this?
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+From boazanin at gmail.com  Mon Apr 24 10:42:52 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Mon, 24 Apr 2006 11:42:52 +0300
+Subject: [opdb-core-devel] Interesting
+Message-ID: <710408490604240142j3b06d0b9n592fc59b11618f07@mail.gmail.com>
+
+http://www.experiencewindows.co.uk/forum/viewtopic.php?p=3751&sid=40f3668c569f15d802b20cbaafc44d9e
+
+An interesting suggestion I found, regarding FirePhish.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060424/f8e769d2/attachment.html>
+
+From livne at kde.org  Mon Apr 24 18:42:00 2006
+From: livne at kde.org (Meni Livne)
+Date: Mon, 24 Apr 2006 19:42:00 +0300
+Subject: [opdb-core-devel] Interesting
+In-Reply-To: <710408490604240142j3b06d0b9n592fc59b11618f07@mail.gmail.com>
+References: <710408490604240142j3b06d0b9n592fc59b11618f07@mail.gmail.com>
+Message-ID: <200604241942.01455.livne@kde.org>
+
+On Monday April 24 2006 11:42, Boaz Anin wrote:
+> http://www.experiencewindows.co.uk/forum/viewtopic.php?p=3751&sid=40f3668c5
+>69f15d802b20cbaafc44d9e
+>
+> An interesting suggestion I found, regarding FirePhish.
+
+So, what do you think about it? Do you plan on doing it in FirePhish?
+
+
+Regards.
+
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+From boazanin at gmail.com  Mon Apr 24 20:49:27 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Mon, 24 Apr 2006 21:49:27 +0300
+Subject: [opdb-core-devel] Interesting
+In-Reply-To: <200604241942.01455.livne@kde.org>
+References: <710408490604240142j3b06d0b9n592fc59b11618f07@mail.gmail.com>
+	 <200604241942.01455.livne@kde.org>
+Message-ID: <710408490604241149h48587495w4e1f5863257f2f9c@mail.gmail.com>
+
+Apparently it's not so simple to do this in XUL (add buttons, labels,
+menu-buttons to status bar) if at all possible.
+
+On 4/24/06, Meni Livne <livne at kde.org> wrote:
+>
+> On Monday April 24 2006 11:42, Boaz Anin wrote:
+> >
+> http://www.experiencewindows.co.uk/forum/viewtopic.php?p=3751&sid=40f3668c5
+> >69f15d802b20cbaafc44d9e
+> >
+> > An interesting suggestion I found, regarding FirePhish.
+>
+> So, what do you think about it? Do you plan on doing it in FirePhish?
+>
+>
+> Regards.
+>
+>
+> --
+> Meni Livne <livne at kde.org>
+>
+> _______________________________________________
+> opdb-core-devel mailing list
+> opdb-core-devel at berlios.de
+> http://lists.berlios.de/mailman/listinfo/opdb-core-devel
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060424/f5ed1a66/attachment.html>
+
+From boazanin at gmail.com  Thu Apr 27 18:41:41 2006
+From: boazanin at gmail.com (Boaz Anin)
+Date: Thu, 27 Apr 2006 19:41:41 +0300
+Subject: [opdb-core-devel] Berlios down again?
+Message-ID: <710408490604270941o1757f572sf92d2d8c7db302af@mail.gmail.com>
+
+I can't seem to be able to access our site / the review list for some time
+now...
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/opdb-core-devel/attachments/20060427/88135809/attachment.html>
+
+From livne at kde.org  Thu Apr 27 18:47:03 2006
+From: livne at kde.org (Meni Livne)
+Date: Thu, 27 Apr 2006 19:47:03 +0300
+Subject: [opdb-core-devel] Berlios down again?
+In-Reply-To: <710408490604270941o1757f572sf92d2d8c7db302af@mail.gmail.com>
+References: <710408490604270941o1757f572sf92d2d8c7db302af@mail.gmail.com>
+Message-ID: <200604271947.03243.livne@kde.org>
+
+On Thursday April 27 2006 19:41, Boaz Anin wrote:
+> I can't seem to be able to access our site / the review list for some time
+> now...
+
+Yes. Last week their database server, now the whole web server of 
+developer.berlios.de, apparently. This is frustrating.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+

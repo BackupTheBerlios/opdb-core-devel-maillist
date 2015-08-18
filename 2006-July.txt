@@ -1,0 +1,368 @@
+From livne at kde.org  Fri Jul 21 21:13:33 2006
+From: livne at kde.org (Meni Livne)
+Date: Fri, 21 Jul 2006 22:13:33 +0300
+Subject: [opdb-core-devel] Fwd: Open Phishing Database
+Message-ID: <200607212213.33636.livne@kde.org>
+
+Hi,
+
+A very interesting mail which was sent directly to me for some reason. It may 
+be especially interesting to you FirePhish developers and to all of us in 
+general.
+
+What do you say?
+
+
+Regards.
+
+--
+Meni Livne
+
+
+----------  Forwarded Message  ----------
+
+Subject: Open Phishing Database
+Date: Friday July 21 2006 22:01
+From: Chuck Durham <charles.durham at seisan.com>
+To: livne at kde.org
+
+Meni
+
+I cam across your project while searching for online databases that
+contain security data related to phishing schemes.  We are going to be
+working on some projects to add support for Firefox and Thunderbird to
+help alleviate problems for people around phishing schemes. We currently
+have a FireFox extension that we have released to the general public
+that will process the current page they are on and perform a GeoIP
+address and plot the address on Google Maps and also let the user know
+some information about the server.  The plug-in is called "Shazou" - you
+can see it at - http://www.seisan.com/shazou/ or check out FireFox add-ons.
+
+We are doing some work in partnership with a security firm that provides
+solutions for government agencies and some of our experiences we feel
+are worthwhile to get out into the public domain.  I would be interested
+in discussing with you some partnering or maybe just a sharing of data.
+With the plug-ins and things that we are putting out we're going to take
+the next step and allow people to submit suspicious or what they
+perceive as dangerous links.  We are also going to be getting some
+information from sources such as log files and actual case activity that
+the agencies may want to share and we will provide a portal to get that
+information out.
+
+For us this is public domain and our motivation for working on these is
+for exposure to show our mapping technology skillset and also the
+security related skillsets which we of course are applying to our end
+client solutions.  I would like to find out if you would want to share
+information, as we collect it we can confirm against your database and
+what we find new or outside that we can submit to you for addition to
+your db.
+
+Let me know you thought
+
+Chuck Durham
+Seisan
+www.seisan.com
+
+-------------------------------------------------------
+
+
+From livne at kde.org  Sun Jul 23 21:36:19 2006
+From: livne at kde.org (Meni Livne)
+Date: Sun, 23 Jul 2006 22:36:19 +0300
+Subject: [opdb-core-devel] Open Phishing Database
+In-Reply-To: <44C1249A.30403@seisan.com>
+References: <44C1249A.30403@seisan.com>
+Message-ID: <200607232236.19949.livne@kde.org>
+
+Hello Chuck,
+
+Your suggestions are interesting and we'd be interested in cooperating with 
+you. I just have a few questions.
+
+I assume you're interested in our database of phishing sites. It can be 
+accessed through libphish, a Free (GPL) C library which you can use in your 
+applications provided you follow the terms of the GPL license. There's also 
+FirePhish - the anti-phishing toolbar for Firefox - which you may have 
+already tried. If you're interested in accessing the database directly, i.e. 
+writing your own interface to access it and not through libphish, we may help 
+you with that too. But in any case, the software we released is Open Source, 
+so you can see how things are done in the code and use it in GPL software.
+
+I tried you browser plugin and it's quite nice and useful. I was wondering 
+about the nature of these projects you're working on. Do you basically plan 
+to include anti-phishing capabilities in Shazou? Or the other way around - 
+Shazou's capabilities in an anti-phishing solution...?
+
+We're definitely interested in hearing more information about your plans, and 
+we are willing to cooperate.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+On Friday July 21 2006 22:01, you wrote:
+> Meni
+>
+> I cam across your project while searching for online databases that
+> contain security data related to phishing schemes.  We are going to be
+> working on some projects to add support for Firefox and Thunderbird to
+> help alleviate problems for people around phishing schemes. We currently
+> have a FireFox extension that we have released to the general public
+> that will process the current page they are on and perform a GeoIP
+> address and plot the address on Google Maps and also let the user know
+> some information about the server.  The plug-in is called "Shazou" - you
+> can see it at - http://www.seisan.com/shazou/ or check out FireFox add-ons.
+>
+> We are doing some work in partnership with a security firm that provides
+> solutions for government agencies and some of our experiences we feel
+> are worthwhile to get out into the public domain.  I would be interested
+> in discussing with you some partnering or maybe just a sharing of data.
+> With the plug-ins and things that we are putting out we're going to take
+> the next step and allow people to submit suspicious or what they
+> perceive as dangerous links.  We are also going to be getting some
+> information from sources such as log files and actual case activity that
+> the agencies may want to share and we will provide a portal to get that
+> information out.
+>
+> For us this is public domain and our motivation for working on these is
+> for exposure to show our mapping technology skillset and also the
+> security related skillsets which we of course are applying to our end
+> client solutions.  I would like to find out if you would want to share
+> information, as we collect it we can confirm against your database and
+> what we find new or outside that we can submit to you for addition to
+> your db.
+>
+> Let me know you thought
+>
+> Chuck Durham
+> Seisan
+> www.seisan.com
+
+
+From jt at occams.info  Sun Jul 23 21:45:18 2006
+From: jt at occams.info (Joshua Tauberer)
+Date: Sun, 23 Jul 2006 15:45:18 -0400
+Subject: [opdb-core-devel] Open Phishing Database
+In-Reply-To: <200607232236.19949.livne@kde.org>
+References: <44C1249A.30403@seisan.com> <200607232236.19949.livne@kde.org>
+Message-ID: <44C3D1CE.4040409@occams.info>
+
+While you're on the subject...
+
+I maintain an anti-phishing Thunderbird extension
+(http://razor.occams.info/code/spf/) and I've been meaning to post to
+this list for a while about using your database.  The only issue is that
+I'd like to query the database with, say, the XMLHttpRequest object
+rather than using a native library.  Any thoughts?  (I wouldn't mind
+hosting the query service myself.)
+
+Also, is there a way I can see what is listed in the database?
+
+Btw, an open phishing database is a great idea.  Definitely an important
+step for addressing phishing.
+
+-- 
+- Joshua Tauberer
+
+http://razor.occams.info
+
+"Unfortunately, we're having this discussion. It's too bad,
+because guess who listens to the discussion: the enemy."
+
+
+From livne at kde.org  Mon Jul 24 21:38:07 2006
+From: livne at kde.org (Meni Livne)
+Date: Mon, 24 Jul 2006 22:38:07 +0300
+Subject: [opdb-core-devel] Open Phishing Database
+In-Reply-To: <44C3D1CE.4040409@occams.info>
+References: <44C1249A.30403@seisan.com> <200607232236.19949.livne@kde.org>
+	<44C3D1CE.4040409@occams.info>
+Message-ID: <200607242238.07610.livne@kde.org>
+
+Hello,
+
+On Sunday July 23 2006 22:45, Joshua Tauberer wrote:
+> While you're on the subject...
+>
+> I maintain an anti-phishing Thunderbird extension
+> (http://razor.occams.info/code/spf/) and I've been meaning to post to
+> this list for a while about using your database.  The only issue is that
+> I'd like to query the database with, say, the XMLHttpRequest object
+> rather than using a native library.  Any thoughts?  (I wouldn't mind
+> hosting the query service myself.)
+>
+> Also, is there a way I can see what is listed in the database?
+
+You're welcome to use our database in you extension.
+
+Right now libphish is what's used in the browser plugins. However if you want 
+to use XMLHttpRequest we could help you with that, although I don't know much 
+about it. Maybe the FirePhish developers here can give hints?
+
+You can also get the site list as an XML file from 
+http://opdb.berlios.de/opdbsites.xml. This is what's used in the Offline mode 
+of browser plugins.
+
+Let us know if you have any questions.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+From jt at occams.info  Tue Jul 25 00:46:10 2006
+From: jt at occams.info (Joshua Tauberer)
+Date: Mon, 24 Jul 2006 18:46:10 -0400
+Subject: [opdb-core-devel] Open Phishing Database
+In-Reply-To: <200607242238.07610.livne@kde.org>
+References: <44C1249A.30403@seisan.com>
+	<200607232236.19949.livne@kde.org>	<44C3D1CE.4040409@occams.info>
+	<200607242238.07610.livne@kde.org>
+Message-ID: <44C54DB2.6080200@occams.info>
+
+Hey,
+
+Meni Livne wrote:
+> Right now libphish is what's used in the browser plugins. However if you want 
+> to use XMLHttpRequest we could help you with that, although I don't know much 
+> about it. Maybe the FirePhish developers here can give hints?
+
+Well, the programming side I can handle.  What I'd want is to be able to
+ send an HTTP request to a server that asks whether some particular
+domain is in the database or not.  Last I looked over libphish, that's
+not something you have set up already, right?  (What I gathered is that
+libphish creates a local copy of the XML file.)
+
+I can just mirror the XML file on my server and set up a query CGI
+script that way, but I don't want to be duplicating something you've
+done or plan to do.
+
+-- 
+- Joshua Tauberer
+
+http://razor.occams.info
+
+"Unfortunately, we're having this discussion. It's too bad,
+because guess who listens to the discussion: the enemy."
+
+
+From livne at kde.org  Tue Jul 25 22:39:48 2006
+From: livne at kde.org (Meni Livne)
+Date: Tue, 25 Jul 2006 23:39:48 +0300
+Subject: [opdb-core-devel] Open Phishing Database
+In-Reply-To: <44C54DB2.6080200@occams.info>
+References: <44C1249A.30403@seisan.com> <200607242238.07610.livne@kde.org>
+	<44C54DB2.6080200@occams.info>
+Message-ID: <200607252339.49007.livne@kde.org>
+
+On Tuesday July 25 2006 01:46, Joshua Tauberer wrote:
+> Well, the programming side I can handle.  What I'd want is to be able to
+>  send an HTTP request to a server that asks whether some particular
+> domain is in the database or not.  Last I looked over libphish, that's
+> not something you have set up already, right?  (What I gathered is that
+> libphish creates a local copy of the XML file.)
+
+Actually, there are two running modes which the user can choose. In Offline 
+mode it indeed does all queries locally through the XML file. But in Online 
+mode it queries the server through CGI scripts. The query script is at 
+http://opdb.berlios.de/cgi-bin/query.pl
+
+The two mandatory arguments are protocol and IP address. Example of use:
+http://opdb.berlios.de/cgi-bin/query.pl?m=http&i=200.86.73.84
+
+The output gives you what parts of the input given are in the database (y or 
+n), and the country (-- for unknown) which comes from GeoIP.
+Then a specification of the length of the comments, and the comments 
+themselves after a new line, only if Comments-Length > 0.
+
+There are two additional arguments you can pass. Hostname and path. It is 
+recommended that you pass all of them. If no path is specified, it default 
+to '/'. Full example:
+http://opdb.berlios.de/cgi-bin/query.pl?m=http&i=200.86.73.84&s=pc-84-73-86-200.cm.vtr.net&p=/~www.paypal.com/cgi-bin/webscrcmd=_login-run/
+
+> I can just mirror the XML file on my server and set up a query CGI
+> script that way, but I don't want to be duplicating something you've
+> done or plan to do.
+
+Hope you can use what we already have. Let us know how it goes.
+
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
+From livne at kde.org  Wed Jul 26 21:50:27 2006
+From: livne at kde.org (Meni Livne)
+Date: Wed, 26 Jul 2006 22:50:27 +0300
+Subject: [opdb-core-devel] Open Phishing Database
+In-Reply-To: <44C660DF.7060901@seisan.com>
+References: <44C1249A.30403@seisan.com> <200607232236.19949.livne@kde.org>
+	<44C660DF.7060901@seisan.com>
+Message-ID: <200607262250.27593.livne@kde.org>
+
+On Tuesday July 25 2006 21:20, you wrote:
+> Meni
+>
+> Sorry I didn't get back to you sooner, had company this weekend and just
+> got back into the office today.  Anyway I will be looking at the
+> libphish C Library and my thought was to utilize that to create a web
+> service for our Shazou plug-in and other related applications for
+> anti-phishing.  We are looking to extend Shazou's features to check
+> against the db for Phishing scheme's when you bring up the Map, GeoIP
+> and Whois data (We are adding Whois Lookup display in our next
+> release).  My overall goal is to warn users if the site they are on is
+> reported in the Phishing DB and allow them someway to submit Phish.
+
+Sounds like a good idea. You are welcome to use the libphish library under the 
+terms of its license. If you have any questions, don't hesitate to ask me.
+
+> As for submitting a site for Phishing, instead of trying to maintain our
+> own DB,  I figure it would be best to partner up with you guys.  Do you
+> have a method or way in which we could report Phish via Shazou to you,
+> is that something we could setup.  Our Shazou plug-in is mainly a
+
+Yes, there is a method to report sites as Phishing. First of all users can 
+use "Report As Phishing" from their anti-phishing toolbar (like FirePhish) 
+through their browser. It uses a script on our server which presents the user 
+with a form where they can add their comments (like what site it's attempting 
+to phish), and then it gets submitted to our review.
+For example:
+http://opdb.berlios.de/cgi-bin/report.pl?url=http://barclays10.net/olb/r/LoginMember.pl
+
+> We also have some other solutions that we are developing some govt
+> agencies based around cybercrime, so we may also have a way to work with
+> you guys to get you official phish sites based on investigations or
+> things that the govt would like to have known to protect the public.
+> This could be a source of data that we can feed to you.
+
+We will be glad if you will be able to provide reports on phishing sites, 
+preferably using the method shown above.
+
+> My big question is are you guys checking out all submitted link to make
+> sure they are actual phishing scheme's versus someone accidentally
+> submitting or submitting their friends sites as joke or competitor sites??.
+
+Yes, all sites reported by users get reviewed by us through an online 
+interface. Currently there are two more people, other than me, helping with 
+the review. We only add sites to the actual database after we make sure it's 
+indeed phishing.
+
+> Anyway my next step is in the next day our two to check out your
+> libphish api.
+
+Regards.
+
+--
+Meni Livne <livne at kde.org>
+
+
+
